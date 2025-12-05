@@ -1,0 +1,19 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'ProposalTA.blg'
+[250] biber-MSWIN64:342> INFO - === 
+[324] Biber.pm:421> INFO - Reading 'ProposalTA.bcf'
+[688] Biber.pm:1002> INFO - Found 43 citekeys in bib section 0
+[709] Biber.pm:4487> INFO - Processing section 0
+[734] Biber.pm:4678> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
+[879] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1097] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
+[1844] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1844] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1844] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
+[1844] Biber.pm:4307> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
+[1845] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
+[2036] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
+[2124] bbl.pm:779> INFO - Output to ProposalTA.bbl
+[2125] Biber.pm:132> WARN - legacy month field 'November' in entry 'PwC2024' is not an integer - this will probably not sort properly.
+[2125] Biber.pm:132> WARN - legacy month field 'jun' in entry 'ixdf2016ucd' is not an integer - this will probably not sort properly.
+[2125] Biber.pm:134> INFO - WARNINGS: 2

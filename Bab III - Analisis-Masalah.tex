@@ -1,0 +1,551 @@
+% ============================================================================================
+% BAB III ANALISIS MASALAH
+% Pembagian subbab tidak rigid dan dapat bervariasi. Bab ini minimal berisi analisis kebutuhan
+% fungsional dan nonfungsional, analisis berbagai alternatif solusi yang dapat ditawarkan, dan
+% metode pemilihan solusi yang diusulkan.
+% ============================================================================================
+\chapter{ANALISIS MASALAH}
+\label{chap:analisis-masalah}
+
+\section{Perencanaan Proses \textit{User-Centered Design}}
+\label{subbab:iii.1}
+Tahap awal sebelum memasuki proses analisis pada penelitian ini adalah melakukan perencanaan terkait bagaimana pendekatan \textit{user-centered design} (UCD) akan diterapkan. Perencanaan diperlukan agar seluruh langkah yang dilakukan pada tahapan selanjutnya benar-benar berfokus pada pengguna dan memastikan bahwa data yang dikumpulkan relevan dengan kondisi penggunaan sebenarnya. Perencanaan dilakukan dengan menentukan informasi apa saja yang perlu dicari melalui pengumpulan data primer. Dalam konteks rental motor listrik, beberapa informasi utama yang menjadi fokus adalah sebagai berikut:
+
+\begin{enumerate}
+    \item Proses dan alur pengguna saat mencari layanan rental
+    
+    Berfokus pada bagaimana pengguna mencari penyedia rental, langkah apa saja yang pengguna lakukan, serta hambatan yang muncul akibat proses yang pengguna lakukan.
+    
+    \item Pemahaman pengguna terhadap informasi kendaraan listrik
+    
+    Mencakup persepsi pengguna terhadap kapasitas baterai, kemampuan memahami estimasi jarak tempuh, serta keberadaan dan ketersediaan stasiun pengisian daya.
+    
+    \item Perilaku dan preferensi pengguna dalam memilih motor
+    
+    Mencakup kriteria yang dipertimbangkan pengguna (harga, jenis motor, ulasan, lokasi penyedia), serta cara pengguna membandingkan alternatif dari berbagai penyedia rental.
+    
+    \item Permasalahan kognitif pengguna
+    
+    Berfokus pada tantangan seperti kebingungan saat membaca informasi, kesulitan menilai kecukupan daya baterai, maupun ketidakpastian dalam menentukan apakah motor yang dipilih aman untuk perjalanan.
+    
+    \item Kebutuhan dan ekspektasi pengguna terhadap fitur aplikasi
+    
+    Mencakup kebutuhan fungsional, non-fungsional, serta desain interaksi yang menjadi ekspektasi pengguna.
+\end{enumerate}
+
+
+Untuk memperoleh data yang relevan dan dapat dijadikan acuan dalam tahap pengembangan berikutnya, pemilihan responden perlu dilakukan secara terarah. Responden dipilih berdasarkan karakteristik yang sesuai dengan profil pengguna yang menjadi fokus penelitian. Adapun kriteria responden yang digunakan dalam penelitian ini adalah sebagai berikut:
+
+\begin{enumerate}
+    \item Individu yang pernah menggunakan layanan rental motor konvensional maupun transportasi sejenis, karena memiliki pengalaman langsung dalam melakukan proses pencarian, pemesanan, dan interaksi dengan penyedia layanan.
+    
+    \item Individu pengguna motor listrik saat ini, karena dianggap memiliki tantangan terkait kapasitas baterai, estimasi jarak tempuh, dan kebutuhan terhadap informasi stasiun pengisian daya.
+    
+    \item Individu berusia produktif (18-40 tahun) yang secara aktif menggunakan \textit{smartphone} dan terbiasa mencari informasi melalui aplikasi atau platform digital.
+    
+    \item Individu yang sering memanfaatkan media \textit{online} untuk mencari informasi mengenai kendaraan atau layanan rental, seperti melalui media sosial atau ulasan pengguna.
+\end{enumerate}
+
+
+Berdasarkan informasi yang ingin diketahui dan kriteria responden yang telah ditentukan, metode pengumpulan data dipilih agar mampu memberikan gambaran yang jelas mengenai perilaku, kebutuhan, serta tantangan yang dialami pengguna dalam proses rental motor listrik. Metode yang digunakan dalam penelitian ini meliputi:
+
+\begin{enumerate}
+    \item Survei
+    
+    Survei digunakan untuk mengumpulkan data dasar dari jumlah responden yang lebih luas. Survei ini bertujuan untuk mengetahui kebiasaan pengguna dalam mencari layanan rental, preferensi pengguna ketika memilih motor, serta tingkat pemahaman terkait informasi yang berkaitan dengan motor listrik. Survei juga membantu mendapatkan gambaran umum mengenai ekspektasi pengguna terhadap fitur yang dianggap penting dalam aplikasi rental motor listrik.
+    
+    \item Wawancara
+    
+    Wawancara dilakukan dengan responden terpilih untuk memperoleh informasi yang lebih detail mengenai pengalaman dan tantangan yang dihadapi selama proses pencarian dan penyewaan motor. Selain mewawancarai calon penyewa, proses wawancara juga melibatkan penyedia layanan rental untuk memahami kendala operasional, cara menyampaikan informasi kepada pengguna, serta keterbatasan yang ada pada sistem penyewaan saat ini. Wawancara tambahan dengan pengguna motor listrik saat ini juga dilakukan untuk mengetahui pengalaman dalam penggunaan sehari-hari.
+    
+    \item Observasi
+    
+    Observasi dilakukan untuk memahami secara langsung bagaimana proses pencarian dan penyewaan motor berlangsung. Pengamatan dilakukan terhadap layanan rental motor konvensional dengan tujuan untuk melihat bagaimana informasi diberikan kepada pengguna, bagian mana dari alur penggunaan yang berpotensi menimbulkan kebingungan.
+\end{enumerate}
+
+
+Seluruh informasi yang didapatkan pada tahap perencanaan menjadi dasar untuk Subbab berikutnya. Penjelasan selanjutnya berisi hipotesis awal yang disusun berdasarkan studi literatur dan asumsi awal terkait kebutuhan serta permasalahan pengguna sebelum data primer dikumpulkan. Hipotesis tersebut akan digunakan sebagai acuan awal dalam menjalankan tahapan UCD. Pada Subbab berikutnya, yaitu III.2 analisis berfokus pada tahapan pertama UCD, yaitu memahami dan menentukan konteks penggunaan. Sementara Subbab III.3, merupakan bagian dari tahapan kedua UCD, yaitu menentukan kebutuhan pengguna.
+
+\section{Analisis Kondisi Saat Ini}
+\label{subbab:iii.2}
+
+Saat ini, proses pencarian dan penyewaan sepeda motor masih berlangsung secara manual dan belum terintegrasi dalam satu platform. Pengguna biasanya mencari informasi penyedia rental melalui media sosial atau rekomendasi dari pengguna terdahulu, kemudian melakukan komunikasi langsung untuk menanyakan ketersediaan kendaraan, harga, lokasi pengambilan, hingga syarat dan ketentuan penyewaan. Pola operasional ini sesuai dengan penelitian tentang pembuatan aplikasi rental motor yang dilakukan di Indonesia, bahwa proses pencarian dan pemesanan rental motor di Indonesia masih bergantung pada komunikasi personal dan belum memiliki sistem yang terpusat \textcite{salsabilah2024rentalin}.
+
+Penyampaian informasi dari penyedia rental kepada pengguna tidak mengikuti format atau standar tertentu. Beberapa penyedia memberikan informasi secara lengkap, sementara yang lainnya hanya memberikan informasi dasar yang harus ditanyakan kembali lebih detailnya oleh pengguna. Keterbatasan dan ketidakkonsistenan ini membuat proses pencarian membutuhkan waktu yang lebih lama dan menyulitkan pengguna untuk membandingkan pilihan di antara berbagai penyedia rental \cite{Fahmadi2022}.
+
+Dalam konteks kendaraan listrik, permasalahan yang dihadapi pengguna semakin meningkat karena minimnya informasi terkait kapasitas baterai, estimasi jarak tempuh, serta lokasi stasiun pengisian daya yang tidak dijelaskan secara jelas oleh penyedia. Minimnya informasi ini mengakibatkan ketidakpastian terkait kemampuan motor listrik untuk memenuhi kebutuhan perjalanan pengguna. Hal ini mengakibatkan munculnya \textit{range anxiety}, yaitu kekhawatiran pengguna bahwa kendaraan listrik tidak memiliki daya yang cukup untuk mencapai tujuan \textcite{musida2025electric}.
+
+Ketersediaan informasi juga menjadi masalah karena layanan rental motor yang ada saat ini masih berfokus pada motor konvensional dan belum menyediakan informasi yang cocok untuk penggunaan motor listrik. Informasi yang diberikan penyedia hanya terbatas pada jenis motor, harga sewa, dan lokasi pengambilan, tanpa adanya data yang penting dalam penggunaan motor listrik, seperti kapasitas baterai, estimasi jarak tempuh, maupun lokasi stasiun pengisian daya. Akibatnya pengguna tidak memiliki gambaran awal mengenai faktor-faktor yang perlu dipertimbangkan ketika akan menggunakan motor listrik. Hal ini berpotensi menambah beban kognitif pengguna yang sangat dipengaruhi oleh kejelasan struktur informasi dan tampilan visual yang ada \textcite{Rogers2019}. Selain itu, belum adanya platform terintegrasi (\textit{multi provider}) yang mengakibatkan pengguna perlu menghubungi beberapa penyedia secara terpisah untuk mendapatkan informasi yang sesuai. Tidak adanya sistem yang terintegrasi menyebabkan pengguna kesulitan dalam membandingkan harga, kondisi kendaraan, dan ketersediaan secara langsung.
+
+\subsection{Analisis Proses Bisnis Saat Ini (\textit{As-Is})}
+\label{subbab:iii.2.1}
+
+Alur proses diperlukan untuk menunjukkan bagaimana pengguna berinteraksi dengan penyedia rental motor. Saat ini layanan rental motor listrik belum tersedia secara umum di Indonesia, sehingga analisis dilakukan dengan mengacu pada alur penyewaan motor konvensional sebagai perbandingan yang paling relevan. Gambaran proses tersebut ditunjukkan melalui \textit{user flow} pada Gambar \ref{gambar:userflow-asis}.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=1\textwidth]{image/User_Flow_As_Is.jpg} 
+    \caption{\textit{User Flow} Rental Motor Saat Ini (\textit{As-Is})}
+    \label{gambar:userflow-asis}
+\end{figure}
+
+Untuk memberikan pemahaman lebih detail mengenai proses rental motor saat ini, rincian \textit{user flow} dijelaskan lebih lanjut pada Tabel \ref{tabel:penjelasan-userflow}.
+
+\begin{longtable}{|c|p{4cm}|p{7.2cm}|}
+    
+    \caption{Penjelasan \textit{User Flow} Rental Motor Saat Ini (\textit{As-Is})}
+    \label{tabel:penjelasan-userflow}\\
+    \hline
+    \textbf{Kode} &
+    {\centering \textbf{\textit{User Flow}} \par} &
+    {\centering \textbf{Deskripsi} \par} \\
+    \hline
+    \endfirsthead
+
+    \caption[]{Penjelasan \textit{User Flow} Rental Motor Saat Ini (\textit{As-Is}) (Lanjutan)}\\
+    \hline
+    \textbf{Kode} &
+    {\centering \textbf{\textit{User Flow}} \par} &
+    {\centering \textbf{Deskripsi} \par} \\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{3}{r}{\small\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
+    UF-01 & 
+    Mencari informasi penyedia rental motor. & 
+    Pengguna mencari informasi penyedia rental melalui media sosial atau rekomendasi dari pengguna lain. Informasi awal yang dicari biasanya berupa jenis motor yang tersedia, harga sewa, lokasi penyedia, serta kontak yang dapat dihubungi. \\
+    \hline
+
+    UF-02 & 
+    Menghubungi penyedia rental (WhatsApp/telepon/DM Instagram). & 
+    Pengguna menghubungi penyedia rental secara langsung untuk menanyakan ketersediaan motor, harga, dan detail penyewaan lainnya. \\
+    \hline
+
+    UF-03 & 
+    Mengirim detail harga, jenis motor, dan syarat rental. & 
+    Penyedia memberikan informasi lebih lengkap, termasuk harga sewa, jenis dan kondisi motor, serta syarat penyewaan lainnya. \\
+    \hline
+
+    UF-04 & 
+    Mengirim data pribadi untuk keperluan administrasi. & 
+    Pengguna mengirimkan data pribadi seperti foto KTP, SIM, atau informasi lain yang diminta penyedia untuk proses verifikasi. \\
+    \hline
+
+    UF-05 & 
+    Melakukan verifikasi data. & 
+    Penyedia memeriksa data pribadi yang dikirim pengguna untuk memastikan keaslian identitas dan kelayakan penyewa. \\
+    \hline
+
+    UF-06 & 
+    Melakukan pembayaran. & 
+    Pengguna melakukan pembayaran sesuai instruksi penyedia sebelum motor diserahkan. \\
+    \hline
+
+    UF-07 & 
+    Mengambil motor di lokasi penyedia. & 
+    Pengguna mendatangi lokasi penyedia untuk mengambil motor, biasanya dilakukan konfirmasi akhir terkait kondisi motor dan durasi sewa. \\
+    \hline
+
+    UF-08 & 
+    Menggunakan motor selama durasi sewa. & 
+    Pengguna menggunakan motor sesuai durasi sewa yang telah disepakati. \\
+    \hline
+
+    UF-09 & 
+    Menghubungi penyedia untuk bantuan. & 
+    Jika terjadi kendala selama penggunaan, pengguna menghubungi penyedia untuk mendapatkan bantuan atau instruksi lebih lanjut. \\
+    \hline
+
+    UF-10 & 
+    Mengembalikan motor ke penyedia. & 
+    Pengguna mengembalikan motor ke lokasi penyedia pada waktu yang telah disepakati. Proses penyewaan selesai setelah penyedia menerima kembali motor dan melakukan pengecekan kondisi motor. \\
+    \hline
+
+\end{longtable}
+
+Berdasarkan Gambar \ref{gambar:userflow-asis} dan Tabel \ref{tabel:penjelasan-userflow}, terlihat bahwa proses penyewaan motor saat ini masih berlangsung secara manual dan bergantung pada komunikasi langsung antara pengguna dan penyedia rental. Setiap tahapan menunjukkan bahwa pengguna perlu melakukan berbagai langkah secara terpisah, mulai dari mencari penyedia, mengirim data pribadi, hingga melakukan pembayaran. 
+
+\subsection{Analisis Karakteristik Pengguna}
+\label{subbab:iii.2.2}
+
+Berdasarkan hasil studi literatur, karakteristik pengguna pada layanan rental motor listrik memiliki variasi yang cukup beragam. Untuk memperoleh gambaran yang lebih jelas mengenai profil pengguna, karakteristik tersebut ditunjukkan pada Tabel \ref{tabel:karakteristik-pengguna}.
+
+\begin{longtable}{|c|p{11cm}|}
+    
+    \caption{Daftar Karakteristik Pengguna}
+    \label{tabel:karakteristik-pengguna}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Karakteristik Pengguna}} \\
+    \hline
+    \endfirsthead
+
+    \caption[]{Daftar Karakteristik Pengguna (Lanjutan)}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Karakteristik Pengguna}} \\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{2}{r}{\small\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
+    K-01 & 
+    Pengguna cenderung membutuhkan informasi dasar yang jelas seperti kapasitas baterai dan jarak tempuh sebelum memutuskan untuk menyewa. \\
+    \hline
+
+    K-02 & 
+    Pengguna cenderung mencari opsi rental yang mudah diakses, termasuk kemudahan dalam membandingkan penyedia, ketersediaan lokasi terdekat, dan harga yang transparan. \\
+    \hline
+
+    K-03 & 
+    Pengguna memiliki tingkat pemahaman yang berbeda terhadap motor listrik. \\
+    \hline
+
+    K-04 & 
+    Pengguna mengharapkan penyajian informasi yang ringkas dan tidak membingungkan. \\
+    \hline
+
+    K-05 & 
+    Pengguna cenderung bergantung pada ulasan dan bukti sosial untuk menilai keandalan penyedia rental dan kualitas kendaraan yang ditawarkan. \\
+    \hline
+
+    K-06 & 
+    Pengguna menginginkan proses pencarian motor yang cepat dan efisien. \\
+    \hline
+
+    K-07 & 
+    Pengguna mudah kewalahan jika harus berpindah-pindah aplikasi hanya untuk membandingkan stok, harga, atau informasi lainnya dari beberapa penyedia rental. \\
+    \hline
+
+    K-08 & 
+    Pengguna membutuhkan tampilan visual yang membantu mengurangi beban kognitif. \\
+    \hline
+
+    K-09 & 
+    Pengguna menginginkan rasa aman sebelum memulai perjalanan. \\
+    \hline
+
+\end{longtable}
+
+\subsection{Analisis Permasalahan Pengguna}
+\label{subbab:iii.2.3}
+
+Berdasarkan alur proses rental motor saat ini, terdapat beberapa permasalahan yang sering muncul dan dirasakan langsung oleh pengguna. Meskipun layanan rental motor listrik belum tersedia secara umum di Indonesia, beberapa permasalahan yang ada pada proses rental motor konvensional tetap relevan pada pengalaman pengguna ketika menyewa motor listrik. Selain itu, motor listrik memiliki kebutuhan informasi yang berbeda dari motor biasa, sehingga terdapat beberapa potensi masalah yang juga perlu diperhatikan. Oleh karena itu, permasalahan yang diidentifikasi pada Bagian III.2.3 mencakup permasalahan yang ada pada proses rental motor saat ini serta permasalahan yang diperkirakan akan muncul dalam proses rental motor listrik. 
+
+Permasalahan pertama berkaitan dengan aspek fungsional, yaitu permasalahan yang muncul karena keterbatasan fitur atau informasi yang dibutuhkan pengguna dalam melaksanakan proses penyewaan. Permasalahan fungsional tersebut dijelaskan pada Tabel \ref{tabel:permasalahan-fungsional}.
+
+\begin{longtable}{|c|p{11.5cm}|}
+    
+    \caption{Permasalahan Fungsional pada Proses Rental Motor Listrik}
+    \label{tabel:permasalahan-fungsional}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Deskripsi Permasalahan}} \\
+    \hline
+    \endfirsthead
+
+    \caption[]{Permasalahan Fungsional pada Proses Rental Motor Listrik (Lanjutan)}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Deskripsi Permasalahan}} \\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{2}{r}{\small\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
+    F-01 & 
+    Tidak adanya platform terpusat untuk mencari dan membandingkan penyedia rental, sehingga pengguna harus mencari informasi secara manual dari berbagai sumber. \\
+    \hline
+
+    F-02 & 
+    Informasi terkait ketersediaan motor tidak dapat diakses secara langsung dan hanya bisa diketahui setelah pengguna menghubungi penyedia. \\
+    \hline
+
+    F-03 & 
+    Tidak tersedia informasi yang relevan untuk motor listrik (kapasitas baterai, estimasi jarak tempuh, atau lokasi stasiun pengisian daya). \\
+    \hline
+
+    F-04 & 
+    Tidak adanya sistem bantuan atau layanan dukungan yang jelas ketika pengguna mengalami kendala selama proses penyewaan. \\
+    \hline
+
+\end{longtable}
+
+Selain permasalahan fungsional, terdapat juga permasalahan non-fungsional yang berkaitan dengan pengalaman pengguna dalam menerima dan memproses informasi selama proses penyewaan. Permasalahan non-fungsional tersebut dijelaskan pada Tabel \ref{tabel:permasalahan-nonfungsional}.
+
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{|c|p{11.5cm}|}
+    
+    \caption{Permasalahan Non-Fungsional pada Proses Rental Motor Listrik}
+    \label{tabel:permasalahan-nonfungsional}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Deskripsi Permasalahan}} \\
+    \hline
+    \endfirsthead
+
+    \caption[]{Permasalahan Non-Fungsional pada Proses Rental Motor Listrik (Lanjutan)}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Deskripsi Permasalahan}} \\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{2}{r}{\small\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
+    NF-01 & 
+    Informasi yang diberikan penyedia tidak terstruktur sehingga pengguna kesulitan memahami detail penyewaan secara cepat. \\
+    \hline
+
+    NF-02 & 
+    Variasi cara penyedia menyampaikan informasi membuat pengguna harus menyesuaikan diri kembali setiap kali berpindah penyedia. \\
+    \hline
+
+    NF-03 & 
+    Proses perbandingan antarpenyedia memerlukan usaha mental yang tinggi karena pengguna harus mengingat dan mengevaluasi banyak informasi secara manual. \\
+    \hline
+
+    NF-04 & 
+    Minimnya informasi pendukung untuk motor listrik berpotensi meningkatkan kebingungan pengguna dalam mengambil keputusan. \\
+    \hline
+
+\end{longtable}
+
+\section{Analisis Kebutuhan}
+\label{subbab:iii.3}
+
+Berdasarkan penjelasan pada Subbab III.2.3, terdapat beberapa kebutuhan yang perlu dipenuhi agar proses rental motor listrik dapat berjalan lebih jelas, efisien, dan mudah dipahami oleh pengguna. Kebutuhan ini diturunkan dari masalah-masalah yang muncul pada proses rental motor saat ini, baik yang bersifat fungsional maupun non-fungsional, serta dari informasi yang dibutuhkan pengguna ketika nantinya akan melakukan rental motor listrik. Kebutuhan tersebut dibagi menjadi tiga kategori, yaitu kebutuhan fungsional, kebutuhan non-fungsional, dan kebutuhan desain interaksi yang akan dijelaskan pada Subbab III.3.1, III.3.2, dan III.3.3.
+
+\subsection{Kebutuhan Fungsional}
+\label{subbab:iii.3.1}
+
+Kebutuhan fungsional didapatkan berdasarkan permasalahan yang telah diidentifikasi sebelumnya, khususnya terkait informasi dan fitur yang diperlukan pengguna agar proses rental motor listrik dapat berjalan lebih jelas dan efisien. Tabel \ref{tabel:kebutuhan-fungsional} menunjukkan rincian kebutuhan fungsional.
+
+\begin{longtable}{|c|p{11.5cm}|}
+    
+    \caption{Kebutuhan Fungsional}
+    \label{tabel:kebutuhan-fungsional}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Kebutuhan Fungsional}} \\
+    \hline
+    \endfirsthead
+
+    \caption[]{Kebutuhan Fungsional (Lanjutan)}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Kebutuhan Fungsional}} \\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{2}{r}{\small\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
+    FR-01 & 
+    Sistem dapat menampilkan daftar penyedia rental motor listrik dalam satu platform terpusat. \\
+    \hline
+
+    FR-02 & 
+    Sistem dapat menampilkan penyedia rental berdasarkan lokasi, jenis motor, dan harga. \\
+    \hline
+
+    FR-03 & 
+    Sistem dapat menampilkan detail motor secara lengkap, termasuk jenis motor, gambar motor, \textit{rating} motor, dan kapasitas baterai. \\
+    \hline
+
+    FR-04 & 
+    Sistem dapat menampilkan estimasi jarak tempuh berdasarkan kapasitas baterai saat ini. \\
+    \hline
+
+    FR-05 & 
+    Sistem dapat menampilkan lokasi stasiun pengisian daya terdekat. \\
+    \hline
+
+    FR-06 & 
+    Sistem dapat menyediakan alur pemesanan yang jelas, termasuk saat mengunggah identitas dan proses verifikasi data. \\
+    \hline
+
+    FR-07 & 
+    Sistem dapat mendukung berbagai metode pembayaran digital. \\
+    \hline
+
+    FR-08 & 
+    Sistem harus menyediakan fitur bantuan jika pengguna mengalami kendala. \\
+    \hline
+
+    FR-09 & 
+    Sistem harus menyediakan fitur penilaian dan ulasan penyedia rental untuk meningkatkan kepercayaan pengguna. \\
+    \hline
+
+    FR-10 & 
+    Sistem harus memberikan notifikasi kepada pengguna terkait status pemesanan, pengingat waktu pengembalian, atau kondisi baterai yang sudah rendah. \\
+    \hline
+
+\end{longtable}
+
+\subsection{Kebutuhan Non-Fungsional}
+\label{subbab:iii.3.2}
+
+Kebutuhan non-fungsional berhubungan dengan kualitas pengalaman yang harus diberikan oleh sistem agar pengguna dapat memahami informasi dengan mudah dan merasa nyaman saat menggunakan sistem. Tabel \ref{tabel:kebutuhan-nonfungsional} menunjukkan rincian kebutuhan non-fungsional.
+
+\begin{longtable}{|c|c|p{9.5cm}|}
+    
+    \caption{Kebutuhan Non-Fungsional}
+    \label{tabel:kebutuhan-nonfungsional}\\
+    \hline
+    \textbf{Kode} & \textbf{Aspek} & \centerline{\textbf{Kebutuhan Non-Fungsional}} \\
+    \hline
+    \endfirsthead
+
+    \caption[]{Kebutuhan Non-Fungsional (Lanjutan)}\\
+    \hline
+    \textbf{Kode} & \textbf{Aspek} & \centerline{\textbf{Kebutuhan Non-Fungsional}} \\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{3}{r}{\small\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
+    NFR-01 & 
+    \textit{Usability} & 
+    Sistem harus mudah dipahami dan digunakan oleh pengguna baru, dengan alur penyewaan yang jelas dan tidak membingungkan. \\
+    \hline
+
+    NFR-02 & 
+    \textit{Usability} & 
+    Sistem harus menyajikan informasi secara terstruktur dan konsisten untuk meminimalkan beban kognitif pengguna dalam memahami detail motor listrik. \\
+    \hline
+
+    NFR-03 & 
+    \textit{Performance} & 
+    Sistem harus memberikan respons yang cepat saat memuat daftar motor, detail kendaraan, dan estimasi jarak tempuh. \\
+    \hline
+
+    NFR-04 & 
+    \textit{Reliability} & 
+    Sistem harus menampilkan informasi yang akurat dan konsisten, terutama terkait kapasitas baterai dan estimasi jarak tempuh. \\
+    \hline
+
+    NFR-05 & 
+    \textit{Security} & 
+    Sistem harus melindungi data pribadi pengguna ketika mengunggah identitas dan melakukan proses pemesanan. \\
+    \hline
+
+\end{longtable}
+
+\subsection{Kebutuhan Desain Interaksi}
+\label{subbab:iii.3.3}
+
+Kebutuhan desain interaksi disusun berdasarkan cara pengguna memproses informasi serta masalah-masalah yang muncul pada proses rental motor saat ini. Desain interaksi perlu mendukung perhatian pengguna, meminimalkan beban kognitif, serta memastikan ketersediaan informasi penting. Tabel \ref{tabel:kebutuhan-desain-interaksi} menunjukkan rincian kebutuhan desain interaksi.
+
+\begin{longtable}{|c|p{11.5cm}|}
+    
+    \caption{Kebutuhan Desain Interaksi}
+    \label{tabel:kebutuhan-desain-interaksi}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Kebutuhan Desain Interaksi}} \\
+    \hline
+    \endfirsthead
+
+    \caption[]{Kebutuhan Desain Interaksi (Lanjutan)}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{Kebutuhan Desain Interaksi}} \\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{2}{r}{\small\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    
+    \hline
+    \endlastfoot
+
+    IDR-01 & 
+    Sistem dapat menampilkan kapasitas baterai melalui indikator visual (ikon baterai warna hijau/kuning/merah dan persentase), sehingga pengguna memahami kondisi motor dengan cepat. \\
+    \hline
+
+    IDR-02 & 
+    Sistem dapat menampilkan informasi penting seperti harga, estimasi jarak tempuh, dan status ketersediaan melalui hierarki visual (ukuran \textit{font}, warna, tipografi, dan urutan informasi) yang jelas untuk membantu pengguna mengambil keputusan. \\
+    \hline
+
+    IDR-03 & 
+    Sistem dapat menampilkan perbandingan motor melalui daftar yang konsisten sehingga pengguna dapat membandingkan motor dengan mudah. \\
+    \hline
+
+    IDR-04 & 
+    Sistem dapat memberikan \textit{feedback} visual pada setiap tindakan pengguna (misalnya warna tombol berubah, indikator \textit{loading}, atau pesan konfirmasi). \\
+    \hline
+
+    IDR-05 & 
+    Sistem dapat menjaga konsistensi ikon, warna, dan tipografi pada seluruh halaman untuk mendukung kenyamanan dan mengurangi adaptasi ulang. \\
+    \hline
+
+    IDR-06 & 
+    Sistem dapat menggunakan istilah, struktur navigasi, dan ikon yang familiar bagi pengguna. \\
+    \hline
+
+    IDR-07 & 
+    Sistem dapat menampilkan lokasi stasiun pengisian daya melalui peta interaktif yang mendukung fitur \textit{pinch-to-zoom}, \textit{drag}, dan \textit{tap marker} agar pengguna dapat menelusuri lokasi dengan lebih leluasa. \\
+    \hline
+
+\end{longtable}
+
+\section{\textit{Usability} dan \textit{UX Goals}}
+\label{subbab:iii.4}
+
+Dalam perancangan desain interaksi aplikasi rental motor listrik \textit{multi-provider}, diperlukan penentuan \textit{usability goals} dan \textit{UX goals} untuk memastikan bahwa solusi yang dikembangan tidak hanya memenuhi kebutuhan fungsional, tetapi juga mendukung pengalaman pengguna yang jelas, mudah dipahami, dan nyaman bagi pengguna. Berkaitan dengan kebutuhan pendefinisian \textit{goals} tersebut, berikut \textit{usability goals} yang diharapkan dapat dicapai oleh solusi desain interaksi.
+
+\begin{enumerate} [parsep=8pt, itemsep=0pt, topsep=6pt]
+    \item \textit{Effective to use (Effectiveness)} \\
+    Solusi desain interaksi diharapkan dapat membantu pengguna melakukan penyewaan motor listrik dengan benar, mulai dari memahami informasi penting seperti kapasitas baterai dan estimasi jarak tempuh hingga menyelesaikan proses pemesanan tanpa kendala. Tampilan informasi yang akurat dan alur yang jelas bertujuan untuk memastikan pengguna dapat mengambil keputusan dengan tepat serta menyelesaikan setiap langkah penyewaan dengan sukses.
+
+    \item \textit{Efficient to use (Efficiency)} \\
+    Solusi desain interaksi bertujuan untuk mendukung penggunaan yang cepat dan tidak membingungkan, sehingga pengguna dapat menemukan motor yang sesuai, melakukan pemesanan, hingga melakukan rental dengan usaha yang minimal. Adanya fitur pencarian, filter, dan navigasi yang konsisten membantu mengurangi waktu dan beban kognitif yang diperlukan dalam proses penyewaan.
+
+    \item \textit{Easy to learn (Learnability)} \\
+    Solusi desain interaksi dibuat agar mudah dipahami oleh pengguna baru tanpa memerlukan proses pembelajaran yang berlebih. Penggunaan ikon yang familiar, hierarki visual yang jelas, serta struktur navigasi yang sederhana memungkinkan pengguna untuk memahami aplikasi hanya dengan melihat antarmuka, sehingga proses adaptasinya menjadi lebih cepat.
+
+    \item \textit{Safe to use (Safety)} \\
+    Solusi desain interaksi bertujuan untuk membantu mencegah kesalahan pengguna selama proses penyewaan. Fitur seperti estimasi jarak tempuh, indikator kapasitas baterai, dan notifikasi kondisi baterai rendah berfungsi untuk memberikan peringatan yang jelas sehingga pengguna dapat menghindari risiko dan membuat keputusan yang lebih aman.
+\end{enumerate}
+
+Selain \textit{usability goals}, berikut \textit{UX goals} yang diharapkan dapat dicapai oleh solusi desain interaksi.
+
+\begin{enumerate} [parsep=8pt, itemsep=0pt, topsep=6pt]
+    \item \textit{Satisfying} \\
+    Solusi desain interaksi dapat memberikan pengalaman pengguna yang memuaskan melalui alur yang jelas, tampilan yang terstruktur, dan kemudahan dalam menyelesaikan proses penyewaan. Pengguna merasa puas ketika dapat menemukan motor, memahami informasi penting, dan menyelesaikan transaksi dengan lancar.
+
+    \item \textit{Helpful} \\
+    Solusi desain interaksi dapat membantu pengguna memahami informasi teknis terkait motor listrik dengan mudah. Visualisasi kapasitas baterai, estimasi jarak tempuh, dan lokasi stasiun pengisian daya membantu pengguna dalam membuat keputusan yang tepat.
+
+    \item \textit{Enjoyable} \\
+    Solusi desain interaksi diharapkan membuat pengguna merasa nyaman dan senang, melalui aplikasi yang mudah digunakan, tampilan rapi, dan tidak menimbulkan rasa frustasi.
+
+    \item \textit{Emotionally fulfilling} \\
+    Solusi desain interaksi dapat membuat pengguna merasa lebih tenang dan aman ketika menyewa motor listrik. Hal ini penting untuk mengurangi \textit{range anxiety}, dengan menampilkan informasi kapasitas baterai secara jelas, menampilkan estimasi jarak tempuh yang mudah dipahami, serta menyediakan peta untuk menemukan lokasi stasiun pengisian daya.
+
+    \item \textit{Pleasurable} \\
+    Solusi desain interaksi dapat memberikan pengalaman yang menyenangkan untuk digunakan dalam keseharian, dengan tampilan yang enak dilihat, tata letak yang rapi, dan interaksi yang terasa natural.
+\end{enumerate}

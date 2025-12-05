@@ -1,0 +1,266 @@
+% ==========================================
+% BAB IV DESAIN KONSEP SOLUSI
+% ==========================================
+\chapter{DESAIN KONSEP SOLUSI}
+\label{chap:desain-konsep-solusi}
+
+\section{Analisis Pemilihan Solusi}
+\label{subbab:iv.1}
+
+Analisis pemilihan solusi dilakukan berdasarkan permasalahan yang telah diidentifikasi pada Bab \ref{chap:analisis-masalah}. Permasalahan tersebut menunjukkan bahwa pengguna membutuhkan sistem yang mampu memberikan informasi yang lebih terstruktur, membantu proses pengambilan keputusan, dan mendukung kebutuhan khusus dalam penggunaan motor listrik. Mengacu pada Subbab \ref{subbab:ii.4.7} mengenai aspek kognitif, pengguna membutuhkan tampilan yang mendukung perhatian, persepsi, memori, serta pengambilan keputusan melalui penyajian informasi yang jelas dan konsisten. Selain itu, sebagaimana dijelaskan pada Subbab \ref{subbab:ii.4.8} tentang pendekatan UCD, solusi yang dirancang harus berpusat pada kebutuhan, tujuan, dan konteks penggunaan pengguna. Berdasarkan hal tersebut, solusi yang dipilih berfokus pada perancangan desain interaksi untuk platform yang memfasilitasi proses pencarian dan penyewaan motor listrik dari berbagai penyedia rental. 
+
+\subsection{Alternatif Solusi}
+\label{subbab:iv.1.1}
+
+Beberapa alternatif solusi dipertimbangkan sebelum menentukan solusi yang paling sesuai dengan kebutuhan pengguna. Seluruh alternatif solusi berada dalam ruang lingkup perancangan desain interaksi untuk mendukung proses pencarian dan penyewaan motor listrik. Alternatif pertama adalah perancangan desain interaksi dalam bentuk aplikasi \textit{mobile}. Aplikasi \textit{mobile} memungkinkan tampilan informasi yang lebih detail dan mendukung berbagai gestur yang umum digunakan pengguna seperti \textit{scrolling}, \textit{swiping}, dan \textit{pinch-to-zoom} pada peta. Mengacu pada Subbab \ref{subbab:ii.4.6} tentang tipe interaksi dan \textit{direct manipulation}, gestur tersebut memberikan pengalaman interaksi yang lebih natural dan mudah dipelajari. Selain lebih mudah digunakan dalam aktivitas sehari-hari, aplikasi \textit{mobile} juga lebih praktis diakses ketika pengguna sedang dalam perjalanan serta mendukung fitur notifikasi untuk memberikan informasi penting, yang sesuai dengan konsep \textit{external cognition} pada Subbab \ref{subbab:ii.4.7}.
+
+Alternatif kedua adalah perancangan desain interaksi dalam bentuk \textit{website}. \textit{Website} dapat diakses secara langsung tanpa perlu instalasi aplikasi, sehingga cocok untuk pengguna yang membutuhkan pencarian cepat atau hanya ingin mengecek ketersediaan motor. Akan tetapi, seperti dijelaskan pada prinsip UI di Subbab \ref{subbab:ii.4.4}, kemampuan interaksi pada \textit{website} lebih terbatas dibandingkan aplikasi \textit{mobile}, terutama pada fitur yang membutuhkan navigasi berbasis gestur atau penyajian visual yang kompleks.
+
+Alternatif ketiga adalah perancangan desain interaksi dalam bentuk aplikasi \textit{mobile} dengan tampilan informasi stasiun pengisian daya yang tidak menggunakan peta interaktif, melainkan hanya menampilkan daftar alamat. Solusi ini memberikan tampilan yang sederhana dan mudah diakses bagi pengguna yang hanya membutuhkan referensi lokasi. Akan tetapi, tampilan berbentuk \textit{list} kurang mendukung pengguna dalam memperkirakan jarak dan posisi antarlokasi, sedangkan Subbab \ref{subbab:ii.4.7} tentang persepsi menekankan pentingnya representasi visual untuk membantu pengguna memahami informasi spasial secara lebih efektif.
+
+\subsection{Analisis Penentuan Solusi}
+\label{subbab:iv.1.2}
+
+Berdasarkan ketiga alternatif solusi yang telah dijelaskan pada Subbab \ref{subbab:iv.1.1}, perancangan desain interaksi dalam bentuk aplikasi \text{mobile} dipilih sebagai solusi yang paling sesuai dengan kebutuhan pengguna. Pemilihan ini dilakukan berdasarkan kemampuan aplikasi \textit{mobile}  dalam menampilkan informasi terkait motor listrik secara lebih lengkap dan interaktif. Mengacu pada Subbab \ref{subbab:ii.4.7} mengenai persepsi dan hierarki visual, aplikasi \textit{mobile} lebih mampu menampilkan elemen-elemen seperti kapasitas baterai, estimasi jarak tempuh, dan status ketersediaan dengan struktur visual yang jelas sehingga mendukung pengambilan keputusan.
+
+Jika dibandingkan dengan \textit{website}, aplikasi \textit{mobile} memberikan pengalaman pengguna yang lebih fleksibel karena mendukung berbagai gestur yang sangat relevan untuk aplikasi rental motor listrik. Seperti dijelaskan pada Subbab \ref{subbab:ii.4.6} tentang \textit{direct manipulation}, gestur seperti \textit{scrolling, swiping}, dan \textit{pinch-to-zoom} memungkinkan interaksi yang lebih natural dan mudah dipahami pengguna. Selain itu, aplikasi \textit{mobile} lebih praktis diakses ketika pengguna sedang dalam perjalanan dan dapat mendukung fitur notifikasi, sehingga memudahkan pengguna untuk menerima informasi penting seperti status pemesanan atau pengingat waktu pengembalian. Hal ini selaras dengan konsep \textit{external cognition} pada Subbab \ref{subbab:ii.4.7}, yang menjelaskan bahwa representasi eksternal seperti notifikasi dapat membantu pengguna mengurangi beban memori.
+
+Sementara itu, solusi berbasis \textit{website} memiliki keterbatasan dalam interaksi visual dan navigasi berbasis gestur, sehingga kurang ideal untuk fitur yang membutuhkan visualisasi lebih dinamis seperti peta interaktif atau indikator baterai. Prinsip UI pada Subbab \ref{subbab:ii.4.4} menekankan bahwa desain harus disesuaikan dengan perangkat, dan \textit{webstite} tidak mendukung interaksi berbasis sentuhan secara optimal. Selain itu, \textit{website} juga kurang mendukung fitur notifikasi \textit{real-time}, sehingga tidak dapat memberikan pemberitahuan langsung terkait status pemesanan atau pengingat waktu pengembalian seperti yang tersedia pada aplikasi \textit{mobile}.
+
+Alternatif ketiga, yaitu aplikasi \textit{mobile} dengan penyajian informasi stasiun pengisian daya dalam bentuk daftar alamat memberikan tampilan yang lebih sederhana. Namun, berdasarkan teori persepsi pada Subbab \ref{subbab:ii.4.7}, tanpa visualisasi spasial yang jelas, pengguna tidak dapat memperkirakan jarak antarstasiun pengisian daya secara optimal. Karena itu, tampilan lokasi dalam bentuk \textit{list only} tidak mampu mendukung kebutuhan pengambilan keputusan secara efektif.
+
+Berdasarkan analisis tersebut, aplikasi \textit{mobile} paling mampu memenuhi kebutuhan fungsional, non-fungsional, dan desain interaksi yang telah ditentukan pada Subbab \ref{subbab:iii.3}. Oleh karena itu, solusi akhir yang digunakan berfokus pada perancangan desain interaksi untuk aplikasi \textit{mobile} penyewaan motor listrik berbasis \textit{multi-provider}.
+
+\section{Gambaran Umum Solusi}
+\label{subbab:iv.2}
+
+Berdasarkan permasalahan yang telah dijelaskan pada Bab \ref{chap:analisis-masalah}, khususnya terkait keterbatasan informasi, proses penyewaan yang tidak terstruktur, serta meningkatnya beban kognitif pengguna dalam memahami penggunaan motor listrik, solusi yang diusulkan pada penelitian ini adalah perancangan desain interaksi untuk aplikasi \textit{mobile} rental motor listrik berbasis \textit{multi-provider}. Aplikasi ini dirancang untuk mengintegrasikan berbagai penyedia rental ke dalam satu platform, sehingga pengguna dapat memperoleh informasi penting secara lebih jelas serta melakukan proses penyewaan dengan lebih efisien. Perancangan solusi ini dilakukan dengan memperhatikan bagaimana pengguna memperhatikan, mempersepsikan, mengingat, dan memproses informasi selama berinteraksi dengan sistem digital, mengacu pada aspek-aspek kognitif di Subbab \ref{subbab:ii.4.7}. Keempat aspek tersebut menjadi dasar karena secara langsung berkaitan dengan kebutuhan dan kemampuan pengguna.
+
+Dua aspek kognitif lainnya, \textit{learning} serta \textit{reading, speaking, and listening}, tidak digunakan dalam perancangan ini karena aplikasi dirancang agar dapat dipahami tanpa proses pembelajaran tambahan, serta interaksi yang terjadi berbasis visual sehingga tidak mengharuskan pengguna membaca teks panjang, mendengarkan audio, atau melakukan komunikasi dengan suara untuk menyelesaikan tugas.
+
+Solusi ini berfokus pada penyajian informasi yang relevan bagi pengguna motor listrik rental, seperti kapasitas baterai, estimasi jarak tempuh, lokasi stasiun pengisian daya, serta status ketersediaan kendaraan. Informasi tersebut diwujudkan melalui visualisasi yang mudah dikenali, sehingga perhatian (\textit{attention}) pengguna langsung terfokus pada elemen-elemen yang paling penting tanpa harus mencari informasi secara manual. Desain visual seperti ikon baterai, warna indikator, dan hierarki teks disusun untuk memberikan persepsi (\textit{perception}) yang lebih cepat terhadap kondisi motor, sesuai teori persepsi pada Subbab \ref{subbab:ii.4.7} yang menjelaskan peran warna, kontras, bentuk, dan hierarki visual dalam membantu pengguna memahami informasi dengan cepat. Tampilan informasi yang konsisten pada setiap penyedia juga membantu mengurangi kebutuhan memori (\textit{memory}), karena pengguna tidak perlu mengingat struktur informasi dari setiap penyedia secara terpisah. Dengan demikian, aplikasi tidak hanya menyediakan fungsionalitas inti rental, tetapi juga mendukung proses pengambilan keputusan (\textit{decision making}) yang lebih tepat dan menurunkan potensi terjadinya \textit{range anxiety} pada pengguna motor listrik.
+
+Sebagai bagian dari perancangan desain interaksi, solusi ini juga memanfaatkan model konseptual dan metafora agar struktur aplikasi lebih mudah dipahami. Model konseptual dirancang dengan menempatkan proses pencarian, pemilihan, dan penyewaan motor sebagai alur utama yang sederhana dan mudah diikuti. Penggunaan metafora ini selaras dengan teori \textit{mental models} pada Subbab \ref{subbab:ii.4.7}, di mana pengguna memahami sistem baru berdasarkan kemiripannya dengan pengalaman sebelumnya. Rancangan aplikasi menggunakan tiga metafora utama. Metafora katalog produk digunakan untuk menampilkan daftar motor dalam bentuk kartu sebagaimana pengguna mencari barang pada aplikasi \textit{}{e-commerce}. Metafora ikon baterai ponsel digunakan untuk merepresentasikan kapasitas baterai sebagai bentuk visual yang sudah familiar. Selain itu, metafora peta navigasi digital digunakan pada fitur lokasi stasiun pengisian daya untuk membantu pengguna memahami posisi stasiun pengisian daya dengan cara yang familiar dari aplikasi peta.
+
+Solusi ini dirancang dalam bentuk aplikasi \textit{mobile}, karena perangkat \textit{mobile} memberikan fleksibilitas lebih terhadap interaksi berbasis sentuhan dan mendukung berbagai gestur yang sangat relevan untuk konteks rental motor listrik. Sebagaimana dijelaskan pada Subbab \ref{subbab:ii.4.6} tentang \textit{direct manipulation}, interaksi berbasis gestur mendukung pengalaman yang lebih natural karena tindakan fisik seperti mengetuk atau menggeser layar membantu pengguna memahami sistem tanpa instruksi kompleks. Selain itu, aplikasi \textit{mobile} memungkinkan penyampaian notifikasi \textit{real-time}, seperti pengingat waktu pengembalian motor atau kondisi baterai yang rendah, yang tidak bisa dilakukan secara optimal pada platform website. Notifikasi ini berfungsi sebagai bentuk \textit{external cognition} sebagaimana dijelaskan pada Subbab \ref{subbab:ii.4.7}, yaitu membantu pengguna mengingat informasi penting tanpa harus menyimpannya secara mental.
+
+Solusi yang diusulkan berfungsi sebagai platform terpusat yang mendukung proses pencarian, pemilihan, dan penyewaan motor listrik secara menyeluruh. Seluruh alur interaksi dirancang untuk memperkecil \textit{gulf of execution} dengan memberikan petunjuk yang jelas mengenai tindakan yang dapat dilakukan pengguna, serta memperkecil \textit{gulf of evaluation} melalui \textit{feedback} yang \textit{real-time} dan mudah dipahami, mengacu pada teori \textit{gulf} pada Subbab \ref{subbab:ii.4.7}. Selain itu, desain aplikasi memperhatikan prinsip \textit{recognition rather than recall}, sebagaimana dijelaskan pada \textit{usability heuristics} di Subbab \ref{subbab:ii.4.5}, sehingga pengguna dapat mengenali ikon, tombol, maupun alur proses tanpa harus mengingat terlalu banyak hal. Dengan demikian, aplikasi dapat memberikan pengalaman interaksi yang lebih mudah dipahami dan mendukung pengguna dalam mencapai tujuannya secara efektif.
+
+\section{Fungsionalitas}
+\label{subbab:iv.3}
+
+Fungsionalitas yang dikembangkan pada penelitian ini disusun berdasarkan kebutuhan pengguna yang telah dianalisis pada Bab \ref{chap:analisis-masalah}. Setiap fungsionalitas dirancang agar mampu mendukung proses pencarian, pemilihan, dan penyewaan motor listrik secara lebih terstruktur, sekaligus memperhatikan aspek-aspek kognitif pengguna. Fungsionalitas tersebut dijelaskan pada Tabel \ref{tabel:daftar-fungsionalitas}.
+
+\begin{longtable}{|c|p{4cm}|p{7.7cm}|}
+    
+    \caption{Daftar Fungsionalitas}
+    \label{tabel:daftar-fungsionalitas}\\
+    \hline
+    \textbf{Kode} & \textbf{Fungsionalitas} & \centerline{\textbf{Deskripsi}} \\
+    \hline
+    \endfirsthead
+
+    \caption[]{Daftar Fungsionalitas (Lanjutan)}\\
+    \hline
+    \textbf{Kode} & \textbf{Fungsionalitas} & \centerline{\textbf{Deskripsi}} \\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{3}{r}{\small\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
+    FN-01 & 
+    \textit{Sign Up} & 
+    Fungsionalitas untuk membuat akun baru sebagai penyewa dengan mengisi informasi pribadi dasar agar dapat mengakses seluruh fitur dalam aplikasi. \\
+    \hline
+
+    FN-02 & 
+    \textit{Sign In} & 
+    Fungsionalitas untuk masuk ke akun penyewa menggunakan kredensial yang telah terdaftar (\textit{email}/nomor telepon dan \textit{password}). \\
+    \hline
+
+    FN-03 & 
+    \textit{Sign Out} & 
+    Fungsionalitas untuk keluar dari akun dan mengakhiri sesi penggunaan aplikasi dengan aman. \\
+    \hline
+
+    FN-04 & 
+    Daftar penyedia rental & 
+    Fungsionalitas untuk menampilkan daftar penyedia rental motor listrik dari berbagai lokasi dalam satu platform terpusat. \\
+    \hline
+
+    FN-05 & 
+    Pencarian dan filter motor & 
+    Fungsionalitas untuk mencari motor berdasarkan lokasi, jenis motor, kapasitas baterai, harga sewa, dan preferensi penyewa lainnya. \\
+    \hline
+
+    FN-06 & 
+    Informasi detail motor listrik & 
+    Fungsionalitas untuk menampilkan informasi lengkap mengenai motor, seperti spesifikasi, gambar, \textit{rating}, kapasitas baterai, estimasi jarak tempuh, dan status ketersediaan. \\
+    \hline
+
+    FN-07 & 
+    Peta lokasi stasiun pengisian daya & 
+    Fungsionalitas untuk menampilkan peta interaktif yang memperlihatkan lokasi stasiun pengisian daya terdekat. \\
+    \hline
+
+    FN-08 & 
+    Pemesanan motor & 
+    Fungsionalitas untuk melakukan pemesanan motor, termasuk pemilihan durasi sewa. \\
+    \hline
+
+    FN-09 & 
+    Pembayaran digital & 
+    Fungsionalitas untuk melakukan pembayaran menggunakan metode digital seperti transfer \textit{bank} atau \textit{e-wallet}. \\
+    \hline
+
+    FN-10 & 
+    Notifikasi \textit{real-time} & 
+    Fungsionalitas untuk memberikan notifikasi terkait status pemesanan, waktu pengembalian, dan peringatan kapasitas baterai rendah. \\
+    \hline
+
+    FN-10 & 
+    Pusat bantuan dan FAQ & 
+    Fungsionalitas untuk menyediakan informasi bantuan, panduan penggunaan aplikasi, dan langkah penyelesaian kendala. \\
+    \hline
+
+    FN-11 & 
+    Ulasan dan penilaian penyedia & 
+    Fungsionalitas untuk melihat dan memberikan ulasan terkait pengalaman penyewaan dari penyedia rental. \\
+    \hline
+
+\end{longtable}
+
+\section{Proses Bisnis Usulan Solusi \textit{To-Be}}
+\label{subbab:iv.4}
+
+Alur proses pada bagian ini diperlukan untuk menunjukkan bagaimana pengguna akan berinteraksi dengan aplikasi rental motor listrik yang diusulkan. Berbeda dengan proses penyewaan pada kondisi saat ini yang masih berlangsung secara manual, solusi usulan dirancang agar seluruh tahapan penyewaan dapat dilakukan secara terintegrasi melalui aplikasi \textit{mobile}. Gambaran proses usulan solusi ditunjukkan melalui \textit{user flow} pada Gambar \ref{gambar:userflow-tobe}.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=1\textwidth]{image/User_Flow_To_Be.jpg}
+    \caption{\textit{User Flow} Usulan Solusi Rental Motor Listrik (\textit{To-Be})}
+    \label{gambar:userflow-tobe}
+\end{figure}
+
+\begin{longtable}{|c|p{4cm}|p{7.7cm}|}
+    
+    \caption{Penjelasan \textit{User Flow} Usulan Solusi Rental Motor Listrik (\textit{To-Be})}
+    \label{tabel:penjelasan-userflow-tobe}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{\textit{User Flow}}} & \centerline{\textbf{Deskripsi}} \\
+    \hline
+    \endfirsthead
+
+    \caption[]{Penjelasan \textit{User Flow} Usulan Solusi Rental Motor Listrik (\textit{To-Be}) (Lanjutan)}\\
+    \hline
+    \textbf{Kode} & \centerline{\textbf{\textit{User Flow}}} & \centerline{\textbf{Deskripsi}} \\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{3}{r}{\small\textit{Bersambung ke halaman berikutnya}} \\
+    \endfoot
+    
+    \hline
+    \endlastfoot
+    
+    UFO-01 & 
+    Membuka aplikasi & 
+    Pengguna membuka aplikasi \textit{mobile} untuk memulai proses penyewaan motor listrik. \\
+    \hline
+
+    UFO-02 & 
+    Melakukan \textit{sign up} & 
+    Pengguna melakukan pendaftaran akun baru dengan mengisi data pribadi agar dapat menggunakan aplikasi. \\
+    \hline
+
+    UFO-03 & 
+    Melakukan \textit{sign in} & 
+    Pengguna masuk ke akun menggunakan kredensial yang telah terdaftar (\textit{email}/nomor telepon dan \textit{password}). \\
+    \hline
+
+    UFO-04 & 
+    Melakukan pencarian motor & 
+    Pengguna menggunakan fitur pencarian dan filter untuk mencari motor berdasarkan lokasi, jenis motor, kapasitas baterai, harga, dan preferensi lainnya. \\
+    \hline
+
+    UFO-05 & 
+    Melihat daftar dan detail motor & 
+    Pengguna memilih motor tertentu untuk melihat informasi detail seperti gambar, \textit{rating}, status ketersediaan, kapasitas baterai, dan estimasi jarak tempuh. \\
+    \hline
+
+    UFO-06 & 
+    Melakukan pemesanan motor & 
+    Pengguna menekan tombol “Pesan” dan menentukan durasi sewa motor. \\
+    \hline
+
+
+    UFO-07 & 
+    Melakukan pembayaran & 
+    Pengguna melakukan pembayaran digital melalui metode seperti transfer \textit{bank} atau \textit{e-wallet}. \\
+    \hline
+
+    UFO-08 & 
+    Melakukan verifikasi pembayaran & 
+    Aplikasi memproses pembayaran dan memverifikasi status pembayaran pengguna. \\
+    \hline
+
+    UFO-09 & 
+    Memberikan notifikasi konfirmasi & 
+    Aplikasi mengirimkan notifikasi berisi detail konfirmasi pemesanan. \\
+    \hline
+
+    UFO-10 & 
+    Mendapatkan notifikasi konfirmasi & 
+    Pengguna menerima notifikasi konfirmasi bahwa motor siap diambil sesuai jadwal. \\
+    \hline
+
+    UFO-11 & 
+    Melakukan pengambilan motor ke lokasi penyedia & 
+    Pengguna mendatangi lokasi penyedia rental untuk mengambil motor sesuai informasi pada aplikasi. \\
+    \hline
+
+    UFO-12 & 
+    Melakukan verifikasi penyewa dan menyerahkan motor & 
+    Penyedia rental melakukan verifikasi identitas penyewa dan menyerahkan motor kepada pengguna. \\
+    \hline
+
+    UFO-13 & 
+    Menggunakan motor selama durasi sewa & 
+    Pengguna menggunakan motor sesuai durasi sewa dan dapat memantau kapasitas baterai melalui aplikasi. \\
+    \hline
+
+    UFO-14 & 
+    Melihat lokasi stasiun pengisian daya & 
+    Pengguna memilih untuk melihat stasiun pengisian daya terdekat apabila diperlukan selama perjalanan. \\
+    \hline
+
+    UFO-15 & 
+    Menampilkan peta interaktif lokasi stasiun pengisian daya & 
+    Aplikasi menampilkan peta interaktif untuk membantu pengguna menemukan stasiun pengisian daya terdekat. \\
+    \hline
+
+    UFO-16 & 
+    Mengembalikan motor ke penyedia & 
+    Pengguna mengembalikan motor ke lokasi penyedia rental sesuai dengan waktu pengembalian. \\
+    \hline
+
+    UFO-17 & 
+    Menerima dan memeriksa kelengkapan motor & 
+    Penyedia rental menerima motor, memeriksa kondisi dan kelengkapan motor setelah digunakan oleh penyewa. \\
+    \hline
+
+    UFO-18 & 
+    Memberikan ulasan & 
+    Pengguna memberikan ulasan dan penilaian terhadap penyedia rental setelah proses penyewaan selesai. \\
+    \hline
+
+\end{longtable}
+
+Berdasarkan Gambar \ref{gambar:userflow-tobe} dan Tabel \ref{tabel:penjelasan-userflow-tobe}, terlihat bahwa proses rental motor listrik pada solusi yang diusulkan berlangsung secara lebih terintegrasi melalui aplikasi \textit{mobile}. Setiap tahapan menunjukkan bahwa pengguna tidak perlu melakukan komunikasi manual dengan penyedia rental, karena seluruh aktivitas dapat dilakukan langsung melalui aplikasi.

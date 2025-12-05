@@ -1,0 +1,98 @@
+% ==========================================
+% BAB I PENDAHULUAN
+% ==========================================
+\chapter{PENDAHULUAN}
+\sloppy
+\label{chap:pendahuluan}
+% --- Latar Belakang ---
+\section{Latar Belakang}
+\label{subbab:i.1}
+Ketersediaan layanan transportasi yang mudah diakses, fleksibel, dan efisien menjadi kebutuhan penting bagi mobilitas masyarakat, termasuk para pengunjung di berbagai destinasi wisata. Dalam konteks perjalanan wisata, moda transportasi sewa, khususnya sepeda motor sering dipilih karena memberikan fleksibilitas dalam menjangkau berbagai lokasi. Hal ini selaras dengan penelitian tentang kendaraan sewa dalam menunjang aktivitas wisata serta memengaruhi pola perjalanan wisata \cite{Hermawati2019}. Namun, dalam praktiknya, wisatawan masih menghadapi kendala dalam mencari dan menghubungi penyedia jasa rental motor, karena proses penyewaan masih banyak dilakukan secara manual melalui kunjungan langsung, kontak personal, atau media sosial. Selain itu, penyedia rental di Indonesia belum sepenuhnya menerapkan prosedur operasional yang konsisten sehingga kualitas layanan bervariasi dan sering kali mengakibatkan inefisiensi serta mengurangi kenyamanan pengguna \cite{Fahmadi2022}.
+
+Di sisi lain, penggunaan motor listrik sebagai moda transportasi ramah lingkungan semakin mendapatkan perhatian di Indonesia. Penelitian menunjukkan bahwa minat masyarakat terhadap motor listrik dipengaruhi oleh persepsi manfaat lingkungan, efisiensi biaya, serta dukungan kebijakan yang meningkatkan daya tarik bagi masyarakat \cite{Agustina2025}. Selain itu, inovasi pada kendaraan listrik juga berkontribusi terhadap upaya pelestarian lingkungan dan menjadi bagian dari strategi pembangunan ekonomi hijau di Indonesia, karena mampu mengurangi ketergantungan pada bahan bakar fosil dan mengurangi emisi karbon \cite{Zola2023}. Hal ini menunjukkan bahwa motor listrik tidak hanya menjadi alternatif mobilitas, tetapi juga mendukung keberlanjutan di Indonesia. 
+
+Meskipun kendaraan listrik menawarkan potensi besar sebagai solusi transportasi berkelanjutan, kenyataannya masih terdapat beberapa hambatan yang membuat calon pengguna ragu dalam menggunakannya. Keterbatasan informasi mengenai kapasitas baterai, estimasi jarak tempuh, serta lokasi pengisian daya seringkali menimbulkan ketidakpastian. Kondisi ini turut memicu fenomena \textit{range anxiety}, yaitu kecemasan bahwa daya baterai tidak akan cukup untuk mencapai tujuan. Laporan PwC menunjukkan bahwa 60\% calon pembeli kendaraan listrik khawatir terhadap lamanya waktu pengisian, 59\% merasa ragu akibat jarak tempuh yang terbatas, dan 47\% memiliki kekhawatiran terkait umur pakai baterai \cite{PwC2024}. Faktor-faktor tersebut membuat masyarakat belum sepenuhnya yakin untuk memanfaatkan kendaraan listrik dalam mobilitas sehari-hari. 
+
+Beberapa platform rental kendaraan berbasis digital telah tersedia di Indonesia, namun sebagian besar masih menerapkan model \textit{single provider}, yaitu layanan yang hanya menawarkan kendaraan dari satu penyedia sehingga pilihan bagi pengguna menjadi terbatas. Sebaliknya, model \textit{multi provider} merupakan layanan yang mengintegrasikan beberapa penyedia rental dalam satu platform, sehingga pengguna dapat membandingkan ketersediaan, harga, dan informasi kendaraan secara lebih mudah. Laporan mengenai perkembangan transportasi digital di Asia Tenggara menunjukkan bahwa integrasi layanan merupakan salah satu elemen penting dalam meningkatkan efisiensi dan kemudahan akses terhadap layanan mobilitas di kawasan Asia Tenggara \cite{ITF2022}. Hal ini selaras dengan penelitian dalam industri rental motor di Indonesia, yang menunjukkan bahwa proses pencarian dan pemesanan masih berjalan secara manual, sehingga menyulitkan pengguna dalam menemukan penyedia yang terpercaya sesuai dengan preferensi pengguna \cite{Salsabilah2024, Retrianto2024}. Kondisi ini menunjukkan pentingnya perancangan yang mampu mendukung layanan rental motor listrik berbasis \textit{multi provider} dengan menyediakan informasi penting seperti status kendaraan, kapasitas baterai, estimasi jarak tempuh, dan lokasi stasiun pengisian daya untuk mendukung proses pengambilan keputusan pengguna dalam penyewaan motor listrik.
+
+Kebutuhan akan adanya informasi yang jelas dalam layanan rental motor listrik berbasis \textit{multi provider} berkaitan erat dengan bagaimana pengguna memproses informasi tersebut selama berinteraksi dengan aplikasi. Proses ini melibatkan berbagai aspek kognitif, seperti perhatian, persepsi, memori, pembelajaran, serta pengambilan keputusan, yang menentukan sejauh mana pengguna dapat memahami kondisi kendaraan dan memilih opsi yang sesuai. Rogers et al. menjelaskan bahwa kognisi mencakup proses mental seperti memperhatikan informasi, mengenali elemen visual, mengingat hal yang relevan, hingga menilai alternatif sebelum bertindak, proses-proses ini terjadi secara bersamaan dan saling memengaruhi satu sama lain ketika seseorang menggunakan sistem digital \cite{Rogers2019}.
+
+Berbagai proses kognitif tersebut berperan penting dalam menentukan bagaimana pengguna memahami dan menavigasi antarmuka suatu aplikasi. Oleh karena itu, rancangan antarmuka dan alur interaksi perlu disesuaikan dengan cara pengguna memproses informasi, agar setiap elemen visual, teks, maupun tindakan yang harus dilakukan tidak membebani kapasitas mental pengguna. Rogers et al. menekankan bahwa desain interaksi yang baik harus mempertimbangkan bagaimana pengguna memperhatikan, mempersepsikan, mengingat, serta mengevaluasi informasi selama berinteraksi dengan sistem digital, sehingga interaksi dapat berlangsung secara lebih efisien.
+
+Desain interaksi berfokus pada bagaimana suatu sistem digital dirancang agar pengguna dapat mencapai tujuannya dengan cara yang efektif dan efisien. Rogers et al., pada bukunya menjelaskan bahwa desain interaksi melibatkan penataan elemen antarmuka, pemilihan representasi visual, serta perancangan alur interaksi yang mendukung cara pengguna berpikir, memahami informasi, dan mengambil keputusan saat berinteraksi dengan sistem digital. Prinsip ini juga selaras dengan \textit{usability goals} yang mencakup \textit{effective, efficient, utility, learnable, memorable} dan \textit{safe}, yang menjadi acuan dalam merancang antarmuka yang mudah digunakan dan tidak membebani pengguna. Selain itu, proses desain interaksi didasarkan pada pendekatan \textit{User-Centered Design (UCD)}, yang melibatkan kebutuhan, kemampuan, serta keterbatasan pengguna sebagai pusat dari seluruh proses perancangan.
+
+Berdasarkan permasalahan tersebut, dapat disimpulkan bahwa tantangan dalam penggunaan motor listrik dan layanan rental motor listrik tidak hanya muncul dari keterbatasan infrastruktur dan informasi, tetapi juga dari bagaimana pengguna memproses dan memahami informasi tersebut melalui berbagai aspek kognitif. Oleh karena itu, penelitian ini berfokus pada perancangan desain interaksi aplikasi rental motor listrik berbasis \textit{multi provider} yang mempertimbangkan proses kognitif pengguna, sehingga antarmuka yang dihasilkan mampu memberikan informasi penting secara jelas, mudah dipahami, dan mendukung pengambilan keputusan secara efektif. 
+
+
+% --- Rumusan Masalah ---
+\section{Rumusan Masalah}
+\label{subbab:i.2}
+Berdasarkan latar belakang yang telah dijelaskan sebelumnya, terdapat beberapa permasalahan yang perlu diidentifikasi, mulai dari keterbatasan informasi terkait kendaraan listrik, fenomena \textit{range anxiety}, hingga proses penyewaan yang belum terintegrasi dalam layanan \textit{multi provider}. Permasalahan ini menunjukkan perlunya perancangan desain interaksi yang dapat menjawab kebutuhan pengguna secara efektif. Oleh karena itu, penelitian ini merumuskan beberapa pertanyaan utama sebagai berikut:
+\begin{enumerate}
+\item	Apa saja aspek kognitif pengguna yang berpengaruh terhadap pemahaman informasi penting dalam aplikasi rental motor listrik?
+\item	Apa saja karakteristik yang harus ada pada aplikasi rental motor listrik untuk memenuhi \textit{usability goals} dan \textit{user experience goals}?
+\item   Seperti apa desain interaksi aplikasi rental motor listrik berbasis \textit{multi provider} yang selaras dengan aspek-aspek kognitif pengguna sehingga penyajian informasi menjadi lebih jelas, intuitif, dan mampu mendukung proses pencarian serta pengambilan keputusan?
+\end{enumerate}
+
+% --- Tujuan ---
+\section{Tujuan}
+\label{subbab:i.3}
+Tujuan akhir dari tugas akhir ini adalah membuat \textit{high-fidelity prototype} dalam versi \textit{mobile} yang dirancang dengan mempertimbangkan aspek-aspek kognitif pengguna saat menggunakan aplikasi rental motor listrik.
+
+
+% --- Batasan Masalah ---
+\section{Batasan Masalah}
+\label{subbab:i.4}
+Agar penelitian dapat dilakukan secara terarah dan sesuai dengan tujuan yang ingin dicapai, maka batasan masalah dalam penelitian ditetapkan sebagai berikut:
+\begin{enumerate}
+\item	Ruang lingkup perancangan berfokus pada aplikasi dalam versi \textit{mobile}.
+\item	Perancangan yang dilakukan terbatas pada desain interaksi. Penelitian tidak mencakup tahapan pengembangan sistem atau implementasi aplikasi secara penuh.
+\item   Penelitian dilakukan dari sudut pandang pengguna yang akan menyewa motor listrik, sehingga analisis tidak mencakup kebutuhan, proses operasional, atau alur bisnis dari penyedia layanan rental.
+\end{enumerate}
+
+% --- Metodologi Pengerjaan TA ---
+\section{Metodologi}
+\label{subbab:i.5}
+Penelitian ini menggunakan metodologi \textit{User-Centered Design (UCD)} sebagai pendekatan utama dalam proses perancangan solusi interaksi. Berdasarkan standar ISO 9241-210:2010, pendekatan ini secara formal disebut sebagai \textit{Human-Centered Design (HCD)}. Kedua istilah tersebut digunakan secara sinonim karena mengacu pada proses dan prinsip yang sama, yaitu menempatkan manusia sebagai pusat dari proses desain \cite{ISO9241210}. 
+
+ISO 9241-210 menjelaskan bahwa terdapat empat aktivitas utama dalam proses HCD, yaitu:
+\begin{enumerate}
+\item	Memahami dan menetapkan konteks penggunaan.
+\item	Menentukan kebutuhan pengguna.
+\item   Menghasilkan solusi desain.
+\item   Mengevaluasi desain.
+\end{enumerate}
+\par\medskip
+
+Keempat aktivitas tersebut dilakukan secara iteratif, sehingga setiap tahapan dapat saling memengaruhi dan memperbaiki hasil tahap sebelumnya. Hubungan iteratif antaraktivitas \textit{Human-Centered Design} menurut ISO 9241-210 ditunjukkan pada Gambar \ref{gambar:interdependensi-hcd}.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=0.7\textwidth]{image/Interdependensi Aktivitas Human-Centered Design.jpg}
+    \caption{Interdependensi Aktivitas \textit{Human-Centered Design} Menurut ISO 9241-210:2010}
+    \label{gambar:interdependensi-hcd}
+\end{figure}
+
+Sebelum memasuki empat aktivitas utama dalam proses \textit{Human-Centered Design} (HCD), terdapat fase perencanaan awal, yaitu \textit{plan the human-centered design process}. Pada tahap ini, aktivitas yang dilakukan berfokus pada perencanaan strategi pengumpulan data primer yang diperlukan. Perencanaan dilakukan dengan menentukan terlebih dahulu jenis informasi yang dibutuhkan, seperti bagaimana pengguna mencari dan memilih motor listrik, informasi apa saja yang dibutuhkan untuk mendukung proses pengambilan keputusan, serta kendala apa saja yang dialami selama proses penyewaan saat ini. Selain itu, perlu ditentukan pihak-pihak yang relevan untuk memberikan informasi tersebut, misalnya pengguna potensial rental motor listrik, individu yang pernah menyewa motor konvensional, pengguna motor listrik saat ini, maupun penyedia rental yang memahami lebih detail proses operasional di lapangan. Setelah itu, ditentukan metode pengumpulan data yang paling sesuai, seperti wawancara, survei, ataupun observasi secara langsung. Perencanaan ini bertujuan agar data primer yang diperoleh dapat digunakan untuk memvalidasi hipotesis yang berasal dari data sekunder, sehingga pemahaman konteks penggunaan dapat tersusun secara lebih objektif. Setelah proses perencanaan dilakukan, tahapan HCD kemudian dilanjutkan ke empat aktivitas utama, sebagai berikut:
+
+\begin{enumerate}[parsep=8pt, itemsep=0pt, topsep=6pt]
+    \item	Memahami dan menetapkan konteks penggunaan
+       
+    Tahap ini bertujuan untuk memperoleh pemahaman mengenai bagaimana pengguna berinteraksi dengan layanan rental motor listrik. Analisis dilakukan dengan melihat karakteristik pengguna, pengalaman sebelumnya dengan motor listrik serta tantangan kognitif yang dihadapi ketika memahami informasi seperti kapasitas baterai, estimasi jarak tempuh, dan lokasi stasiun pengisian daya. Pemahaman konteks ini diperoleh melalui kombinasi antara data primer yang direncanakan pada tahap sebelumnya serta data sekunder dari studi literatur. Studi literatur digunakan untuk memperkuat hipotesis awal dan memberikan gambaran mengenai aspek-aspek kognitif yang relevan dalam penggunaan aplikasi. Informasi yang diperoleh kemudian dirangkum ke dalam \textit{user persona} dan \textit{user journey map} untuk menggambarkan perilaku pengguna, hambatan yang dialami pengguna, serta kebutuhan informasi yang relevan selama proses penyewaan motor listrik.
+
+    \item	Menentukan kebutuhan pengguna
+    
+    Tahap ini bertujuan untuk menentukan kebutuhan pengguna berdasarkan hasil pemahaman terhadap konteks penggunaan yang telah diperoleh. Pada tahap ini, informasi-informasi yang telah dikumpulkan dari data primer maupun sekunder dianalisis untuk mengidentifikasi apa saja kebutuhan pengguna dalam proses rental motor listrik. Penentuan kebutuhan dilakukan dengan mempertimbangkan aktivitas yang dilakukan pengguna, informasi yang pengguna butuhkan untuk mengambil keputusan, serta hambatan kognitif yang muncul selama proses tersebut. Kebutuhan yang dihasilkan mencakup kebutuhan fungsional, non-fungsional, dan kebutuhan desain interaksi, yang disusun dengan memperhatikan aspek kognitif pengguna. 
+
+    \item   Menghasilkan solusi desain
+    
+    Tahap ini berfokus pada pengembangan solusi desain berdasarkan kebutuhan pengguna yang telah ditetapkan. Tahap ini dimulai dengan pembuatan \textit{low-fidelity design} untuk memetakan struktur informasi serta alur interaksi yang dibutuhkan pengguna selama proses pencarian dan penyewaan motor listrik. Setelah struktur dasar tervalidasi, desain dikembangkan menjadi \textit{high-fidelity design} dengan tampilan visual yang lebih lengkap dan mendekati bentuk akhir aplikasi. Hasil akhir kemudian diwujudkan dalam bentuk \textit{interactive prototype} yang dapat digunakan untuk melakukan simulasi secara langsung dan menilai sejauh mana desain memenuhi kebutuhan dan mendukung interaksi pengguna secara efektif.
+
+    \item   Mengevaluasi desain
+    
+    Tahap ini bertujuan untuk menilai sejauh mana solusi desain yang telah dikembangkan mampu memenuhi kebutuhan pengguna dan mendukung proses kognitif pengguna selama berinteraksi dengan aplikasi. Evaluasi dilakukan dengan meminta pengguna mencoba \textit{interactive prototype} dan menyelesaikan serangkaian tugas yang mencerminkan aktivitas utama dalam proses pencarian dan penyewaan motor listrik. Selama proses pengujian, dilakukan pengamatan bagaimana pengguna menavigasi antarmuka, memahami informasi yang ditampilkan, serta mengambil keputusan berdasarkan kondisi motor listrik yang tersedia.
+
+    Pengukuran pada tahap evaluasi dilakukan menggunakan berbagai metrik yang mencerminkan efektivitas, efisiensi, persepsi pengguna terhadap desain, seperti tingkat keberhasilan penyelesaian tugas (\textit{task success}), waktu yang dibutuhkan untuk menyelesaikan tugas, serta penilaian tingkat kemudahan melalui \textit{Single Ease Question} (SEQ). Selain itu, persepsi keseluruhan pengguna terhadap kegunaan aplikasi diukur menggunakan \textit{System Usability Scale} (SUS), sementara \textit{Net Promoter Score} (NPS) untuk mengetahui tingkat kesediaan pengguna dalam merekomendasikan aplikasi kepada orang lain. Wawancara pascapengujian juga dilakukan untuk mendapatkan \textit{feedback} lebih lanjut. Hasil evaluasi ini menjadi dasar untuk iterasi desain berikutnya, sehingga solusi desain final menjadi lebih optimal.
+
+\end{enumerate}

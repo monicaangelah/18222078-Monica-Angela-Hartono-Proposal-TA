@@ -1,0 +1,1872 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{Agustina2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ca2956b0170d7018a7b5be1caeed833b}{%
+           family={Agustina},
+           familyi={A\bibinitperiod},
+           given={Rina},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2eb8453684ae0927e45359a31ce76a9d}{%
+           family={Yuniaristanto},
+           familyi={Y\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=61af747a708a48cfa3f15ffdae389009}{%
+           family={Sutopo},
+           familyi={S\bibinitperiod},
+           given={Wahyudi},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{ae2333b8b74303432c8f7ba746da52f3}
+      \strng{fullhash}{ae2333b8b74303432c8f7ba746da52f3}
+      \strng{fullhashraw}{ae2333b8b74303432c8f7ba746da52f3}
+      \strng{bibnamehash}{ae2333b8b74303432c8f7ba746da52f3}
+      \strng{authorbibnamehash}{ae2333b8b74303432c8f7ba746da52f3}
+      \strng{authornamehash}{ae2333b8b74303432c8f7ba746da52f3}
+      \strng{authorfullhash}{ae2333b8b74303432c8f7ba746da52f3}
+      \strng{authorfullhashraw}{ae2333b8b74303432c8f7ba746da52f3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{World Electric Vehicle Journal}
+      \field{number}{2}
+      \field{title}{Factors Influencing Electric Motorcycle Adoption in Indonesia: Comprehensive Psychological, Situational, and Contextual Perspectives}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{pages}{106}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/wevj16020106
+      \endverb
+    \endentry
+    \entry{annisa2024sustainable}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7b53f9e75c8e2d9410d1167968a55d0e}{%
+           family={Annisa},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6a6dfbc422f8eb23de6f49806699b38}{%
+           family={Sutanto},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fcca019f73c4d783d0230363f508691}{%
+           family={Arief},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9855f375460c16c67b2a479a1266267}{%
+           family={Wiradinata},
+           familyi={W\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3f6f746177d315ffa2990fd1d232483}
+      \strng{fullhash}{01797febec33eb25684d7f2d848ccbfa}
+      \strng{fullhashraw}{01797febec33eb25684d7f2d848ccbfa}
+      \strng{bibnamehash}{01797febec33eb25684d7f2d848ccbfa}
+      \strng{authorbibnamehash}{01797febec33eb25684d7f2d848ccbfa}
+      \strng{authornamehash}{d3f6f746177d315ffa2990fd1d232483}
+      \strng{authorfullhash}{01797febec33eb25684d7f2d848ccbfa}
+      \strng{authorfullhashraw}{01797febec33eb25684d7f2d848ccbfa}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Daur Lingkungan}
+      \field{number}{1}
+      \field{title}{Sustainable transportation in the context of Indonesia Emas 2045: Facilitating the transition towards an environmentally friendly future}
+      \field{volume}{7}
+      \field{year}{2024}
+      \field{pages}{41\bibrangedash 45}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.33087/daurling.v7i1.286
+      \endverb
+    \endentry
+    \entry{adb2022roadmap}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=92d83ccd39e6a187466ef617c8cb8662}{%
+           family={{Asian Development Bank}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Manila}%
+      }
+      \list{publisher}{1}{%
+        {Asian Development Bank}%
+      }
+      \strng{namehash}{92d83ccd39e6a187466ef617c8cb8662}
+      \strng{fullhash}{92d83ccd39e6a187466ef617c8cb8662}
+      \strng{fullhashraw}{92d83ccd39e6a187466ef617c8cb8662}
+      \strng{bibnamehash}{92d83ccd39e6a187466ef617c8cb8662}
+      \strng{authorbibnamehash}{92d83ccd39e6a187466ef617c8cb8662}
+      \strng{authornamehash}{92d83ccd39e6a187466ef617c8cb8662}
+      \strng{authorfullhash}{92d83ccd39e6a187466ef617c8cb8662}
+      \strng{authorfullhashraw}{92d83ccd39e6a187466ef617c8cb8662}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electric motorcycle charging infrastructure road map for Indonesia}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.22617/TCS220426
+      \endverb
+    \endentry
+    \entry{askarov2024task}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a196e9b8fb2f0bda54717533d4b955a5}{%
+           family={Askarov},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a196e9b8fb2f0bda54717533d4b955a5}
+      \strng{fullhash}{a196e9b8fb2f0bda54717533d4b955a5}
+      \strng{fullhashraw}{a196e9b8fb2f0bda54717533d4b955a5}
+      \strng{bibnamehash}{a196e9b8fb2f0bda54717533d4b955a5}
+      \strng{authorbibnamehash}{a196e9b8fb2f0bda54717533d4b955a5}
+      \strng{authornamehash}{a196e9b8fb2f0bda54717533d4b955a5}
+      \strng{authorfullhash}{a196e9b8fb2f0bda54717533d4b955a5}
+      \strng{authorfullhashraw}{a196e9b8fb2f0bda54717533d4b955a5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Is the Task Completion Rate?}
+      \field{urlday}{1}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.monitask.com/en/business-glossary/task-completion-rate
+      \endverb
+      \verb{url}
+      \verb https://www.monitask.com/en/business-glossary/task-completion-rate
+      \endverb
+    \endentry
+    \entry{bangor2009sus}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=05ed7926f59ed51998e7d806c8a2ca30}{%
+           family={Bangor},
+           familyi={B\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6a78f282854a4030f8182e8e5d07d77}{%
+           family={Kortum},
+           familyi={K\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bff0e87eeab4ba1e74ae3e776e15d490}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18574a250655031c24adfc13622910e1}
+      \strng{fullhash}{18574a250655031c24adfc13622910e1}
+      \strng{fullhashraw}{18574a250655031c24adfc13622910e1}
+      \strng{bibnamehash}{18574a250655031c24adfc13622910e1}
+      \strng{authorbibnamehash}{18574a250655031c24adfc13622910e1}
+      \strng{authornamehash}{18574a250655031c24adfc13622910e1}
+      \strng{authorfullhash}{18574a250655031c24adfc13622910e1}
+      \strng{authorfullhashraw}{18574a250655031c24adfc13622910e1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Usability Studies}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale}
+      \field{volume}{4}
+      \field{year}{2009}
+      \field{pages}{114\bibrangedash 123}
+      \range{pages}{10}
+    \endentry
+    \entry{bhong2023two}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fb9c03dc90ce2c12596cf41c78f20afe}{%
+           family={Bhong},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9f4a783b0a18fb38c73023bfcbd852c}{%
+           family={Nale},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9f4a783b0a18fb38c73023bfcbd852c}{%
+           family={Nale},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=804dfc3b454cfccc720ab92acf1f2257}{%
+           family={Girigosavi},
+           familyi={G\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0268486e28bc12b3710c710843f82e3}
+      \strng{fullhash}{f94332aafd428514f8a7d88a31eeb155}
+      \strng{fullhashraw}{f94332aafd428514f8a7d88a31eeb155}
+      \strng{bibnamehash}{f94332aafd428514f8a7d88a31eeb155}
+      \strng{authorbibnamehash}{f94332aafd428514f8a7d88a31eeb155}
+      \strng{authornamehash}{d0268486e28bc12b3710c710843f82e3}
+      \strng{authorfullhash}{f94332aafd428514f8a7d88a31eeb155}
+      \strng{authorfullhashraw}{f94332aafd428514f8a7d88a31eeb155}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Research Journal of Modernization in Engineering, Technology and Science}
+      \field{number}{5}
+      \field{title}{Two-wheeler rental system}
+      \field{volume}{5}
+      \field{year}{2023}
+      \field{pages}{2882\bibrangedash 2888}
+      \range{pages}{7}
+    \endentry
+    \entry{carroll2014human}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62bce1f43a4d44ad47df6c60353109dc}{%
+           family={Carroll},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IxDF - Interaction Design Foundation}%
+      }
+      \strng{namehash}{62bce1f43a4d44ad47df6c60353109dc}
+      \strng{fullhash}{62bce1f43a4d44ad47df6c60353109dc}
+      \strng{fullhashraw}{62bce1f43a4d44ad47df6c60353109dc}
+      \strng{bibnamehash}{62bce1f43a4d44ad47df6c60353109dc}
+      \strng{authorbibnamehash}{62bce1f43a4d44ad47df6c60353109dc}
+      \strng{authornamehash}{62bce1f43a4d44ad47df6c60353109dc}
+      \strng{authorfullhash}{62bce1f43a4d44ad47df6c60353109dc}
+      \strng{authorfullhashraw}{62bce1f43a4d44ad47df6c60353109dc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Human Computer Interaction - brief intro}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/human-computer-interaction-brief-intro
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/human-computer-interaction-brief-intro
+      \endverb
+    \endentry
+    \entry{chammas2015closer}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3e35d6e81873343584b4c0539926ab16}{%
+           family={Chammas},
+           familyi={C\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31e6b8bfb99808f824d0463ed6bea5bc}{%
+           family={Quaresma},
+           familyi={Q\bibinitperiod},
+           given={Manuela},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bcf97e8f608368aac213e72405ceec7}{%
+           family={Mont’Alvão},
+           familyi={M\bibinitperiod},
+           given={Cláudia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{58ca0038474f9f61ac87992fa4cd2e35}
+      \strng{fullhash}{58ca0038474f9f61ac87992fa4cd2e35}
+      \strng{fullhashraw}{58ca0038474f9f61ac87992fa4cd2e35}
+      \strng{bibnamehash}{58ca0038474f9f61ac87992fa4cd2e35}
+      \strng{authorbibnamehash}{58ca0038474f9f61ac87992fa4cd2e35}
+      \strng{authornamehash}{58ca0038474f9f61ac87992fa4cd2e35}
+      \strng{authorfullhash}{58ca0038474f9f61ac87992fa4cd2e35}
+      \strng{authorfullhashraw}{58ca0038474f9f61ac87992fa4cd2e35}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Procedia Manufacturing}
+      \field{title}{A Closer Look on the User Centred Design}
+      \field{volume}{3}
+      \field{year}{2015}
+      \field{pages}{5397\bibrangedash 5404}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.promfg.2015.07.656
+      \endverb
+    \endentry
+    \entry{Fahmadi2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8564a737e790e3caa89669d6152dff82}{%
+           family={Fahmadi},
+           familyi={F\bibinitperiod},
+           given={Aat\bibnamedelima Eska},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7762cd53aa3ac42b541c1c25ded62a8}{%
+           family={Srianto},
+           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=62982822a775f8fd44f484ebf0f3c2cf}{%
+           family={Kurniawan},
+           familyi={K\bibinitperiod},
+           given={Moch\bibnamedelima Aziz},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Department of Business}%
+        {Finance, Diponegoro University}%
+      }
+      \strng{namehash}{e8138313c0f564eb1d79134ed1b55a96}
+      \strng{fullhash}{e8138313c0f564eb1d79134ed1b55a96}
+      \strng{fullhashraw}{e8138313c0f564eb1d79134ed1b55a96}
+      \strng{bibnamehash}{e8138313c0f564eb1d79134ed1b55a96}
+      \strng{authorbibnamehash}{e8138313c0f564eb1d79134ed1b55a96}
+      \strng{authornamehash}{e8138313c0f564eb1d79134ed1b55a96}
+      \strng{authorfullhash}{e8138313c0f564eb1d79134ed1b55a96}
+      \strng{authorfullhashraw}{e8138313c0f564eb1d79134ed1b55a96}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Asian Journal of Logistics Management}
+      \field{number}{2}
+      \field{title}{The Study of Standard Operating Procedures (SOP) Implementation of Vehicle Rental Service Providers in Bali}
+      \field{volume}{1}
+      \field{year}{2022}
+      \field{pages}{123\bibrangedash 131}
+      \range{pages}{9}
+    \endentry
+    \entry{fessenden2024nps}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b9cb11afa8249bc072a9770ef1ea426}{%
+           family={Fessenden},
+           familyi={F\bibinitperiod},
+           given={Therese},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Nielsen Norman Group}%
+      }
+      \strng{namehash}{7b9cb11afa8249bc072a9770ef1ea426}
+      \strng{fullhash}{7b9cb11afa8249bc072a9770ef1ea426}
+      \strng{fullhashraw}{7b9cb11afa8249bc072a9770ef1ea426}
+      \strng{bibnamehash}{7b9cb11afa8249bc072a9770ef1ea426}
+      \strng{authorbibnamehash}{7b9cb11afa8249bc072a9770ef1ea426}
+      \strng{authornamehash}{7b9cb11afa8249bc072a9770ef1ea426}
+      \strng{authorfullhash}{7b9cb11afa8249bc072a9770ef1ea426}
+      \strng{authorfullhashraw}{7b9cb11afa8249bc072a9770ef1ea426}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Net Promoter Score: What a Customer-Relations Metric Can Tell You About Your User Experience}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/nps-ux/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/nps-ux/
+      \endverb
+    \endentry
+    \entry{gezmisoglu2023research}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e0b9e172cebb7fe94ec81ff219b11cd1}{%
+           family={Gezmişoğlu\bibnamedelima Şen},
+           familyi={G\bibinitperiod\bibinitdelim Ş\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60e751505d6b29a80a6f86cddca3af68}{%
+           family={Telli},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd0e8ec58ed971a054b6f3d2d2255249}
+      \strng{fullhash}{cd0e8ec58ed971a054b6f3d2d2255249}
+      \strng{fullhashraw}{cd0e8ec58ed971a054b6f3d2d2255249}
+      \strng{bibnamehash}{cd0e8ec58ed971a054b6f3d2d2255249}
+      \strng{authorbibnamehash}{cd0e8ec58ed971a054b6f3d2d2255249}
+      \strng{authornamehash}{cd0e8ec58ed971a054b6f3d2d2255249}
+      \strng{authorfullhash}{cd0e8ec58ed971a054b6f3d2d2255249}
+      \strng{authorfullhashraw}{cd0e8ec58ed971a054b6f3d2d2255249}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Scientific Journal of Innovation and Social Sciences Research}
+      \field{number}{1}
+      \field{title}{A research on the use of the rental electric scooter}
+      \field{volume}{3}
+      \field{year}{2023}
+      \field{pages}{15\bibrangedash 26}
+      \range{pages}{12}
+    \endentry
+    \entry{hegazy2023evaluation}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=68a3b7c6d21161980d579877a2bc0293}{%
+           family={Gouda},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95d8d3de362e734908e671fbaeba88d2}{%
+           family={Abdelghany},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b49ea2ef861c44d58cd731e660dfee8}{%
+           family={Shalaby},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77c69ce496bd2596ba14e88b6438c44c}{%
+           family={Nasr},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b18628bf4f43250d07da434ffb4385d}
+      \strng{fullhash}{8d5463ba10d1c2fb09d5b10062b0e042}
+      \strng{fullhashraw}{8d5463ba10d1c2fb09d5b10062b0e042}
+      \strng{bibnamehash}{8d5463ba10d1c2fb09d5b10062b0e042}
+      \strng{authorbibnamehash}{8d5463ba10d1c2fb09d5b10062b0e042}
+      \strng{authornamehash}{0b18628bf4f43250d07da434ffb4385d}
+      \strng{authorfullhash}{8d5463ba10d1c2fb09d5b10062b0e042}
+      \strng{authorfullhashraw}{8d5463ba10d1c2fb09d5b10062b0e042}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{The Egyptian International Journal of Engineering Sciences and Technology}
+      \field{title}{Evaluation of vehicle emissions on air quality for urban regions -- An overview}
+      \field{volume}{44}
+      \field{year}{2023}
+      \field{pages}{30\bibrangedash 42}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.21608/EIJEST.2023.175216.1193
+      \endverb
+    \endentry
+    \entry{guo2020impact}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=cdfee844c95f916f2619a26fab25991b}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=602a29bc69d6755cee5ce57fb171886f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98da9aafad6c23046f2db7cb3ba2954c}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={K.\bibnamedelimi K.},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f26f664835ac6c347db22001b657f1a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd6c1d35aed39fa11fcfba0d353120d6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13414502df57d59c82c59a065c752294}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1f417b2035eec64f5143fa5d8fd92b80}
+      \strng{fullhash}{b36610ccdec161d5c53525e68564238b}
+      \strng{fullhashraw}{b36610ccdec161d5c53525e68564238b}
+      \strng{bibnamehash}{b36610ccdec161d5c53525e68564238b}
+      \strng{authorbibnamehash}{b36610ccdec161d5c53525e68564238b}
+      \strng{authornamehash}{1f417b2035eec64f5143fa5d8fd92b80}
+      \strng{authorfullhash}{b36610ccdec161d5c53525e68564238b}
+      \strng{authorfullhashraw}{b36610ccdec161d5c53525e68564238b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Sustainability}
+      \field{number}{14}
+      \field{title}{The impact of urban transportation infrastructure on air quality}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{5626}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su12145626
+      \endverb
+    \endentry
+    \entry{Hermawati2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=63bab2a59282ae1b80f34ad4331e2296}{%
+           family={Hermawati},
+           familyi={H\bibinitperiod},
+           given={Putu},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd7f5266e46e3386d70fbb9c11e7c453}{%
+           family={Adisasmita},
+           familyi={A\bibinitperiod},
+           given={Sakti\bibnamedelima Adji},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=200cefd68b5070c62909f838ecd4a450}{%
+           family={Ramli},
+           familyi={R\bibinitperiod},
+           given={Muhammad\bibnamedelima Isran},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c20737ec1b6a1da6a23daf525a31c40}{%
+           family={Hamid},
+           familyi={H\bibinitperiod},
+           given={Sumarni},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Japan}%
+      }
+      \strng{namehash}{e8792fb84b626714d35b810fc0a1e810}
+      \strng{fullhash}{88ab5aee97bd90e9d2672e67c6be32f9}
+      \strng{fullhashraw}{88ab5aee97bd90e9d2672e67c6be32f9}
+      \strng{bibnamehash}{88ab5aee97bd90e9d2672e67c6be32f9}
+      \strng{authorbibnamehash}{88ab5aee97bd90e9d2672e67c6be32f9}
+      \strng{authornamehash}{e8792fb84b626714d35b810fc0a1e810}
+      \strng{authorfullhash}{88ab5aee97bd90e9d2672e67c6be32f9}
+      \strng{authorfullhashraw}{88ab5aee97bd90e9d2672e67c6be32f9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of GEOMATE}
+      \field{number}{55}
+      \field{title}{Choices Models of Trip Chain and Transportation Mode for International Tourists in Tourism Destination Island}
+      \field{volume}{16}
+      \field{year}{2019}
+      \field{pages}{195\bibrangedash 203}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.21660/2019.55.88460
+      \endverb
+    \endentry
+    \entry{iea2023global}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b33b47b3008c8c47f90a77e0c2dd3060}{%
+           family={{International Energy Agency}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {IEA}%
+      }
+      \strng{namehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{fullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{fullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{bibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorbibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authornamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorfullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorfullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global EV Outlook 2023: Catching up with climate ambitions}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.iea.org/reports/global-ev-outlook-2023
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/reports/global-ev-outlook-2023
+      \endverb
+    \endentry
+    \entry{ISO9241210}{standard}{}{}
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=7058e4bd76f877c52b621c942b30613c}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva, Switzerland}%
+      }
+      \list{organization}{1}{%
+        {International Organization for Standardization}%
+      }
+      \strng{namehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{bibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorbibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthornamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorfullhash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorfullhashraw}{7058e4bd76f877c52b621c942b30613c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{First edition, 2010-03-15}
+      \field{title}{ISO 9241-210:2010 -- Ergonomics of human--system interaction -- Part 210: Human-centred design for interactive systems}
+      \field{year}{2010}
+    \endentry
+    \entry{ixdf2016color}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b46b4bd1081e9f4ce2f77a422d07862}{%
+           family={{IxDF - Interaction Design Foundation}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{bibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorbibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authornamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{What is Color Theory?}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/color-theory
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/color-theory
+      \endverb
+    \endentry
+    \entry{ixdf2016ucd}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b46b4bd1081e9f4ce2f77a422d07862}{%
+           family={{IxDF - Interaction Design Foundation}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{bibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorbibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authornamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{What is User Centered Design (UCD)?}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/user-centered-design
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/user-centered-design
+      \endverb
+    \endentry
+    \entry{ixdf2016ui}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b46b4bd1081e9f4ce2f77a422d07862}{%
+           family={{IxDF - Interaction Design Foundation}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{bibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorbibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authornamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{What is User Interface (UI) Design?}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/ui-design
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/ui-design
+      \endverb
+    \endentry
+    \entry{ixdf2023kpi}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b46b4bd1081e9f4ce2f77a422d07862}{%
+           family={{IxDF - Interaction Design Foundation}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{fullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{bibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorbibnamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authornamehash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhash}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \strng{authorfullhashraw}{7b46b4bd1081e9f4ce2f77a422d07862}
+      \field{extraname}{4}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{What are Key Performance Indicators (KPIs)?}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/kpi
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/kpi
+      \endverb
+    \endentry
+    \entry{johnson2002conceptual}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f22171243ce495df8dacd947b7268272}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Jeff\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72fc4e475191e4fae4410a06b78bc273}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={Austin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c951d75b14a45defad05f186fde5df9}
+      \strng{fullhash}{4c951d75b14a45defad05f186fde5df9}
+      \strng{fullhashraw}{4c951d75b14a45defad05f186fde5df9}
+      \strng{bibnamehash}{4c951d75b14a45defad05f186fde5df9}
+      \strng{authorbibnamehash}{4c951d75b14a45defad05f186fde5df9}
+      \strng{authornamehash}{4c951d75b14a45defad05f186fde5df9}
+      \strng{authorfullhash}{4c951d75b14a45defad05f186fde5df9}
+      \strng{authorfullhashraw}{4c951d75b14a45defad05f186fde5df9}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{interactions}
+      \field{number}{1}
+      \field{title}{Conceptual models: Begin by designing what to design}
+      \field{volume}{9}
+      \field{year}{2002}
+      \field{pages}{25\bibrangedash 32}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/503355.503366
+      \endverb
+    \endentry
+    \entry{kosch2023survey}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=5d7b1c342f803fb146541fe154dd9f21}{%
+           family={Kosch},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9855985a2b635d233d59e0cd93417a49}{%
+           family={Karolus},
+           familyi={K\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7da6cbaab0faa1186f3fbec589c0be5}{%
+           family={Zagermann},
+           familyi={Z\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f51ef324669519d0c62d8d8c324df73}{%
+           family={Reiterer},
+           familyi={R\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45a58d13999ee4667e6f84f6b6718ae9}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Albrecht},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a219c03bccd6bd7c06b76a5c29b5043}{%
+           family={Woźniak},
+           familyi={W\bibinitperiod},
+           given={Paweł\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{bd29d691a3339250893c499719b1b714}
+      \strng{fullhash}{fd201d110d5079033b5027515a83628a}
+      \strng{fullhashraw}{fd201d110d5079033b5027515a83628a}
+      \strng{bibnamehash}{fd201d110d5079033b5027515a83628a}
+      \strng{authorbibnamehash}{fd201d110d5079033b5027515a83628a}
+      \strng{authornamehash}{bd29d691a3339250893c499719b1b714}
+      \strng{authorfullhash}{fd201d110d5079033b5027515a83628a}
+      \strng{authorfullhashraw}{fd201d110d5079033b5027515a83628a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{number}{13s}
+      \field{title}{A Survey on Measuring Cognitive Workload in Human–Computer Interaction}
+      \field{volume}{55}
+      \field{year}{2023}
+      \field{pages}{Article 283}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3582272
+      \endverb
+    \endentry
+    \entry{kurkin2024comparative}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=174521c298810bd403c4717cfb666275}{%
+           family={Kurkin},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e45faa6462c05ce3ddf170bd1aca5f79}{%
+           family={Kryukov},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e7f3164c9c15bc23540dfa661f96c1b}{%
+           family={Masleeva},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5b5f716a03c5335454adfc41488cfd8}{%
+           family={Petukhov},
+           familyi={P\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb162b2c7bcc8a871b0cf2e2fe870201}{%
+           family={Gusev},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5cb9cfd9f4b7dad234aa3835c1fcbfe}
+      \strng{fullhash}{0e4b9f4500c5acf8814b8bd372da57ba}
+      \strng{fullhashraw}{0e4b9f4500c5acf8814b8bd372da57ba}
+      \strng{bibnamehash}{0e4b9f4500c5acf8814b8bd372da57ba}
+      \strng{authorbibnamehash}{0e4b9f4500c5acf8814b8bd372da57ba}
+      \strng{authornamehash}{d5cb9cfd9f4b7dad234aa3835c1fcbfe}
+      \strng{authorfullhash}{0e4b9f4500c5acf8814b8bd372da57ba}
+      \strng{authorfullhashraw}{0e4b9f4500c5acf8814b8bd372da57ba}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Energies}
+      \field{number}{11}
+      \field{title}{Comparative life cycle assessment of electric and internal combustion engine vehicles}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{pages}{2747}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en17112747
+      \endverb
+    \endentry
+    \entry{laubheimer2018measuring}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=40a029f4cbbe016b8d707030dcea583e}{%
+           family={Laubheimer},
+           familyi={L\bibinitperiod},
+           given={Page},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Nielsen Norman Group}%
+      }
+      \strng{namehash}{40a029f4cbbe016b8d707030dcea583e}
+      \strng{fullhash}{40a029f4cbbe016b8d707030dcea583e}
+      \strng{fullhashraw}{40a029f4cbbe016b8d707030dcea583e}
+      \strng{bibnamehash}{40a029f4cbbe016b8d707030dcea583e}
+      \strng{authorbibnamehash}{40a029f4cbbe016b8d707030dcea583e}
+      \strng{authornamehash}{40a029f4cbbe016b8d707030dcea583e}
+      \strng{authorfullhash}{40a029f4cbbe016b8d707030dcea583e}
+      \strng{authorfullhashraw}{40a029f4cbbe016b8d707030dcea583e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Beyond the NPS: Measuring Perceived Usability with the SUS, NASA-TLX, and the Single Ease Question After Tasks and Usability Tests}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/measuring-perceived-usability/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/measuring-perceived-usability/
+      \endverb
+    \endentry
+    \entry{lehmann2024good}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=21bb9ca2a0f5b3589ab62b1b6c986062}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=640d013a49e01759e9c19dc6dd0dba84}{%
+           family={Nunes},
+           familyi={N\bibinitperiod},
+           given={R.\bibnamedelimi R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a34e8cb87a6e5740fb1c9ff611fa2bca}{%
+           family={Barroso},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c96699d6e31d90562f99ef120a3bc2f}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1130653d25464eadca4dc1970eb09c19}
+      \strng{fullhash}{68ad98473fc4ee4ccbdef1c9c8b9bfac}
+      \strng{fullhashraw}{68ad98473fc4ee4ccbdef1c9c8b9bfac}
+      \strng{bibnamehash}{68ad98473fc4ee4ccbdef1c9c8b9bfac}
+      \strng{authorbibnamehash}{68ad98473fc4ee4ccbdef1c9c8b9bfac}
+      \strng{authornamehash}{1130653d25464eadca4dc1970eb09c19}
+      \strng{authorfullhash}{68ad98473fc4ee4ccbdef1c9c8b9bfac}
+      \strng{authorfullhashraw}{68ad98473fc4ee4ccbdef1c9c8b9bfac}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{WSEAS Transactions on Information Science and Applications}
+      \field{title}{Good Practices for Designing a UI/UX Motorcycle Display: A Systematic Literature Review}
+      \field{volume}{21}
+      \field{year}{2024}
+      \field{pages}{499\bibrangedash 508}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.37394/23209.2024.21.45
+      \endverb
+    \endentry
+    \entry{musida2025electric}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fe5ba6ee27976c629279b0194e5f39d9}{%
+           family={Musida},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14b076a0fb0196fce769944eedf17532}{%
+           family={Hanafi},
+           familyi={H\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9c2a8282def5fe54008dec1728a2280}{%
+           family={Sukardjo},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f5478adfe7cc9e4498bbde815f7e062}
+      \strng{fullhash}{0f5478adfe7cc9e4498bbde815f7e062}
+      \strng{fullhashraw}{0f5478adfe7cc9e4498bbde815f7e062}
+      \strng{bibnamehash}{0f5478adfe7cc9e4498bbde815f7e062}
+      \strng{authorbibnamehash}{0f5478adfe7cc9e4498bbde815f7e062}
+      \strng{authornamehash}{0f5478adfe7cc9e4498bbde815f7e062}
+      \strng{authorfullhash}{0f5478adfe7cc9e4498bbde815f7e062}
+      \strng{authorfullhashraw}{0f5478adfe7cc9e4498bbde815f7e062}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{The Open Transportation Journal}
+      \field{title}{Electric vehicle shared services: A decade of innovation, challenges, and transformative impact on sustainable urban mobility — A systematic literature review}
+      \field{volume}{19}
+      \field{year}{2025}
+      \field{pages}{e26671212380759}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2174/0126671212380759250429073257
+      \endverb
+    \endentry
+    \entry{muzakky2023perancangan}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0dfc7cd6938e7f465a18678ec2699fb1}{%
+           family={Muzakky},
+           familyi={M\bibinitperiod},
+           given={Fachrul\bibnamedelima Anam},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f41460f21db56725e61948bf36d512e5}{%
+           family={Sianturi},
+           familyi={S\bibinitperiod},
+           given={Riswan\bibnamedelima Septriayadi},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd979c93ee38d93b2264af2d1742bcdb}{%
+           family={Ananta},
+           familyi={A\bibinitperiod},
+           given={Mahardeka\bibnamedelima Tri},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a3fd25a1a293ba6d4b4a354f8132ea7}
+      \strng{fullhash}{9a3fd25a1a293ba6d4b4a354f8132ea7}
+      \strng{fullhashraw}{9a3fd25a1a293ba6d4b4a354f8132ea7}
+      \strng{bibnamehash}{9a3fd25a1a293ba6d4b4a354f8132ea7}
+      \strng{authorbibnamehash}{9a3fd25a1a293ba6d4b4a354f8132ea7}
+      \strng{authornamehash}{9a3fd25a1a293ba6d4b4a354f8132ea7}
+      \strng{authorfullhash}{9a3fd25a1a293ba6d4b4a354f8132ea7}
+      \strng{authorfullhashraw}{9a3fd25a1a293ba6d4b4a354f8132ea7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer}
+      \field{number}{5}
+      \field{title}{Perancangan Pengalaman Pengguna Aplikasi Sewa Sepeda Motor Menggunakan Metode Human-Centered Design (Studi Kasus: Rent-A-Motor Malang)}
+      \field{volume}{7}
+      \field{year}{2023}
+      \field{pages}{2607\bibrangedash 2616}
+      \range{pages}{10}
+    \endentry
+    \entry{nielsen2001metrics}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Nielsen Norman Group}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Usability Metrics}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/usability-metrics/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/usability-metrics/
+      \endverb
+    \endentry
+    \entry{nng2024heuristics}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2a8d7d50a7a2572cad7475ca3f3918fc}{%
+           family={{Nielsen Norman Group}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a8d7d50a7a2572cad7475ca3f3918fc}
+      \strng{fullhash}{2a8d7d50a7a2572cad7475ca3f3918fc}
+      \strng{fullhashraw}{2a8d7d50a7a2572cad7475ca3f3918fc}
+      \strng{bibnamehash}{2a8d7d50a7a2572cad7475ca3f3918fc}
+      \strng{authorbibnamehash}{2a8d7d50a7a2572cad7475ca3f3918fc}
+      \strng{authornamehash}{2a8d7d50a7a2572cad7475ca3f3918fc}
+      \strng{authorfullhash}{2a8d7d50a7a2572cad7475ca3f3918fc}
+      \strng{authorfullhashraw}{2a8d7d50a7a2572cad7475ca3f3918fc}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{10 Usability Heuristics for User Interface Design}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/ten-usability-heuristics/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/ten-usability-heuristics/
+      \endverb
+    \endentry
+    \entry{norman2013design}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c785cec3b28d28af91696b6a6db5b78}{%
+           family={Norman},
+           familyi={N\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Basic Books}%
+      }
+      \strng{namehash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{fullhash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{fullhashraw}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{bibnamehash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{authorbibnamehash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{authornamehash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{authorfullhash}{6c785cec3b28d28af91696b6a6db5b78}
+      \strng{authorfullhashraw}{6c785cec3b28d28af91696b6a6db5b78}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Revised and expanded edition}
+      \field{title}{The design of everyday things}
+      \field{year}{2013}
+    \endentry
+    \entry{quesenbery2004balancing}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7ad2cd10409fa82fd911a2a9862137e8}{%
+           family={Quesenbery},
+           familyi={Q\bibinitperiod},
+           given={Whitney},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7ad2cd10409fa82fd911a2a9862137e8}
+      \strng{fullhash}{7ad2cd10409fa82fd911a2a9862137e8}
+      \strng{fullhashraw}{7ad2cd10409fa82fd911a2a9862137e8}
+      \strng{bibnamehash}{7ad2cd10409fa82fd911a2a9862137e8}
+      \strng{authorbibnamehash}{7ad2cd10409fa82fd911a2a9862137e8}
+      \strng{authornamehash}{7ad2cd10409fa82fd911a2a9862137e8}
+      \strng{authorfullhash}{7ad2cd10409fa82fd911a2a9862137e8}
+      \strng{authorfullhashraw}{7ad2cd10409fa82fd911a2a9862137e8}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Cutter IT Journal}
+      \field{number}{2}
+      \field{title}{Balancing the 5Es: Usability}
+      \field{volume}{17}
+      \field{year}{2004}
+      \field{pages}{4\bibrangedash 11}
+      \range{pages}{8}
+    \endentry
+    \entry{Retrianto2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ccc77adbed144dbea91864d5063f951c}{%
+           family={Retrianto},
+           familyi={R\bibinitperiod},
+           given={Muhammad\bibnamedelima Rizqi},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88054a79ebd4db0e1da3d9e010a05849}{%
+           family={Waluyo},
+           familyi={W\bibinitperiod},
+           given={Anita\bibnamedelima Fira},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6afe4d4996ec3ddc5bfed8b17a5d529}
+      \strng{fullhash}{d6afe4d4996ec3ddc5bfed8b17a5d529}
+      \strng{fullhashraw}{d6afe4d4996ec3ddc5bfed8b17a5d529}
+      \strng{bibnamehash}{d6afe4d4996ec3ddc5bfed8b17a5d529}
+      \strng{authorbibnamehash}{d6afe4d4996ec3ddc5bfed8b17a5d529}
+      \strng{authornamehash}{d6afe4d4996ec3ddc5bfed8b17a5d529}
+      \strng{authorfullhash}{d6afe4d4996ec3ddc5bfed8b17a5d529}
+      \strng{authorfullhashraw}{d6afe4d4996ec3ddc5bfed8b17a5d529}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Indonesia: Manajemen Informatika dan Komunikasi}
+      \field{number}{1}
+      \field{title}{Rancang Bangun Aplikasi Rental Sepeda Motor Berbasis Mobile dengan Metode Waterfall untuk Efesiensi dan Kualitas Optimal}
+      \field{volume}{5}
+      \field{year}{2024}
+      \field{pages}{541\bibrangedash 551}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.35870/jimik.v5i1.516
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journal.amikindonesia.ac.id/jimik/
+      \endverb
+      \verb{url}
+      \verb https://www.journal.amikindonesia.ac.id/jimik/
+      \endverb
+    \endentry
+    \entry{rezvani2015advances}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5aca8746436529871895b00a23ac509f}{%
+           family={Rezvani},
+           familyi={R\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02db2cbea835506cc2a2fcf623de3ab2}{%
+           family={Jansson},
+           familyi={J\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=229a6435c2c9c5c0e8512c6616259197}{%
+           family={Bodin},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a71e744a1709a65a9e4f30d352305e4}
+      \strng{fullhash}{2a71e744a1709a65a9e4f30d352305e4}
+      \strng{fullhashraw}{2a71e744a1709a65a9e4f30d352305e4}
+      \strng{bibnamehash}{2a71e744a1709a65a9e4f30d352305e4}
+      \strng{authorbibnamehash}{2a71e744a1709a65a9e4f30d352305e4}
+      \strng{authornamehash}{2a71e744a1709a65a9e4f30d352305e4}
+      \strng{authorfullhash}{2a71e744a1709a65a9e4f30d352305e4}
+      \strng{authorfullhashraw}{2a71e744a1709a65a9e4f30d352305e4}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{title}{Advances in consumer electric vehicle adoption research: A review and research agenda}
+      \field{volume}{34}
+      \field{year}{2015}
+      \field{pages}{122\bibrangedash 136}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.trd.2014.10.010
+      \endverb
+    \endentry
+    \entry{salsabilah2024rentalin}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=2,uniquepart=given,hash=99aa4bc899c397984aa46e706460f9bb}{%
+           family={Salsabilah},
+           familyi={S\bibinitperiod},
+           given={Siti\bibnamedelima Aisyah},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=73d014d45efc8a383b12c47c49543fa2}{%
+           family={Harsya},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c661b01e93ee4c3837ae568aa1f0a8f2}{%
+           family={Monicasari},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c199959ad5946f5b5cf834a9b2280fb}{%
+           family={Wijaya},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a589dc88261b6adec388ea8b363d3f88}
+      \strng{fullhash}{730530a0afae62cfdf6b6022ee82096b}
+      \strng{fullhashraw}{730530a0afae62cfdf6b6022ee82096b}
+      \strng{bibnamehash}{730530a0afae62cfdf6b6022ee82096b}
+      \strng{authorbibnamehash}{730530a0afae62cfdf6b6022ee82096b}
+      \strng{authornamehash}{a589dc88261b6adec388ea8b363d3f88}
+      \strng{authorfullhash}{730530a0afae62cfdf6b6022ee82096b}
+      \strng{authorfullhashraw}{730530a0afae62cfdf6b6022ee82096b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Bisnis dan Komunikasi Digital}
+      \field{number}{4}
+      \field{title}{RENTALIN APPS: Development of a Motorbike Rental Application Using Design Thinking for a Digital Rental Solution}
+      \field{volume}{1}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.47134/jbkd.v1i4.3171
+      \endverb
+    \endentry
+    \entry{Salsabilah2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=2,uniquepart=given,hash=38cf8e404dbf5770b4fc5133b14ed5c3}{%
+           family={Salsabilah},
+           familyi={S\bibinitperiod},
+           given={Sufia\bibnamedelima Aulia},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=68c8649cc944add00d53bfd63d76c184}{%
+           family={Harsya},
+           familyi={H\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=616e36ffb037fed6e8202cfa0f785da2}{%
+           family={Mentari},
+           familyi={M\bibinitperiod},
+           given={Karenia},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a77a474bd680f2ecf95a1db9a2a7c0d}{%
+           family={Monicasari},
+           familyi={M\bibinitperiod},
+           given={Shyndy},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=660afec20106d70047b6284aa71729a6}{%
+           family={Wijaya},
+           familyi={W\bibinitperiod},
+           given={Hadi},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87c011306c95130fd5d29ed2122c4030}
+      \strng{fullhash}{3292d514ad353bb070e992f9054a7656}
+      \strng{fullhashraw}{3292d514ad353bb070e992f9054a7656}
+      \strng{bibnamehash}{3292d514ad353bb070e992f9054a7656}
+      \strng{authorbibnamehash}{3292d514ad353bb070e992f9054a7656}
+      \strng{authornamehash}{87c011306c95130fd5d29ed2122c4030}
+      \strng{authorfullhash}{3292d514ad353bb070e992f9054a7656}
+      \strng{authorfullhashraw}{3292d514ad353bb070e992f9054a7656}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Bisnis dan Komunikasi Digital}
+      \field{number}{4}
+      \field{title}{RENTALIN APPS: Development of a Motorbike Rental Application Using Design Thinking for a Digital Rental Solution}
+      \field{volume}{1}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.47134/jbkd.v1i4.3171
+      \endverb
+      \verb{urlraw}
+      \verb https://journal.pubmedia.id/index.php/jbkd
+      \endverb
+      \verb{url}
+      \verb https://journal.pubmedia.id/index.php/jbkd
+      \endverb
+    \endentry
+    \entry{sari2024effect}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3f651b3fdbaf009d6ec423164f4b022d}{%
+           family={Sari},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f352320f5c158f6d56a042156f453fb9}{%
+           family={Sarie},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d9640ea54134278a7bb54a31f832d44}{%
+           family={Suparni},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=952c7c392fc98e2deeab4247dd5a3e41}{%
+           family={Nadi},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi A.\bibnamedelimi B.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6b949691a75d64f52b29a345bed2a94}{%
+           family={Karunia},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi N.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6621b03060fbd384a7304582a2a1234b}
+      \strng{fullhash}{2de72a287309817d1e49aab46eb0ef78}
+      \strng{fullhashraw}{2de72a287309817d1e49aab46eb0ef78}
+      \strng{bibnamehash}{2de72a287309817d1e49aab46eb0ef78}
+      \strng{authorbibnamehash}{2de72a287309817d1e49aab46eb0ef78}
+      \strng{authornamehash}{6621b03060fbd384a7304582a2a1234b}
+      \strng{authorfullhash}{2de72a287309817d1e49aab46eb0ef78}
+      \strng{authorfullhashraw}{2de72a287309817d1e49aab46eb0ef78}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{West Science Interdisciplinary Studies}
+      \field{number}{3}
+      \field{title}{The effect of environmentally friendly transportation implementation and supporting policies on air pollution reduction in Central Kalimantan}
+      \field{volume}{2}
+      \field{year}{2024}
+      \field{pages}{605\bibrangedash 614}
+      \range{pages}{10}
+    \endentry
+    \entry{Rogers2019}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3c13b944e2b68ee928fb824b303ed11f}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b63a3a4f037d8449395335bf9703194a}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={Yvonne},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfa7da93edab02bc2f7734b80f61f6db}{%
+           family={Preece},
+           familyi={P\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{461b8942ea823226e251021ef6921278}
+      \strng{fullhash}{461b8942ea823226e251021ef6921278}
+      \strng{fullhashraw}{461b8942ea823226e251021ef6921278}
+      \strng{bibnamehash}{461b8942ea823226e251021ef6921278}
+      \strng{authorbibnamehash}{461b8942ea823226e251021ef6921278}
+      \strng{authornamehash}{461b8942ea823226e251021ef6921278}
+      \strng{authorfullhash}{461b8942ea823226e251021ef6921278}
+      \strng{authorfullhashraw}{461b8942ea823226e251021ef6921278}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Interaction Design: Beyond Human--Computer Interaction}
+      \field{year}{2019}
+    \endentry
+    \entry{ITF2022}{report}{}{}
+      \list{institution}{1}{%
+        {International Transport Forum (ITF), OECD}%
+      }
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{ITF Transport Outlook for Southeast Asia}
+      \field{title}{Southeast Asia Transport Outlook}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.itf-oecd.org
+      \endverb
+      \verb{url}
+      \verb https://www.itf-oecd.org
+      \endverb
+    \endentry
+    \entry{iso2010}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d09e7fcc2435a0349538e27d16bc4365}{%
+           family={Standardization},
+           familyi={S\bibinitperiod},
+           given={International\bibnamedelima Organization},
+           giveni={I\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0,
+           prefix={for},
+           prefixi={f\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{institution}{1}{%
+        {ISO}%
+      }
+      \list{location}{1}{%
+        {Geneva, Switzerland}%
+      }
+      \strng{namehash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{fullhash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{fullhashraw}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{bibnamehash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{authorbibnamehash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{authornamehash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{authorfullhash}{d09e7fcc2435a0349538e27d16bc4365}
+      \strng{authorfullhashraw}{d09e7fcc2435a0349538e27d16bc4365}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 9241-210:2010 — Human-Centred Design for Interactive Systems}
+      \field{type}{Standard}
+      \field{year}{2010}
+    \endentry
+    \entry{syabana2021user}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=304959f858d2118adfa230d2c8b08da0}{%
+           family={Syabana},
+           familyi={S\bibinitperiod},
+           given={Y.\bibnamedelimi M.\bibnamedelimi K.},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4be3173c769c0af3224195ffbea7a736}{%
+           family={Sanjaya},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69a5a706cc5759e6a20df3a1c9409ad2}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={G.\bibnamedelimi B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbf8672e247295fe6afe00230d189592}{%
+           family={Satyawan},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{37b18a45ce020141ba2e2c2b9a78d81c}
+      \strng{fullhash}{e6802b26ced0831d0a59fe0662075ee4}
+      \strng{fullhashraw}{e6802b26ced0831d0a59fe0662075ee4}
+      \strng{bibnamehash}{e6802b26ced0831d0a59fe0662075ee4}
+      \strng{authorbibnamehash}{e6802b26ced0831d0a59fe0662075ee4}
+      \strng{authornamehash}{37b18a45ce020141ba2e2c2b9a78d81c}
+      \strng{authorfullhash}{e6802b26ced0831d0a59fe0662075ee4}
+      \strng{authorfullhashraw}{e6802b26ced0831d0a59fe0662075ee4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Visual Art and Design}
+      \field{number}{2}
+      \field{title}{User Expectation of Public Transport Design Experience for Electric Bike Sharing in Indonesia}
+      \field{volume}{13}
+      \field{year}{2021}
+      \field{pages}{106\bibrangedash 118}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.5614/j.vad.2021.13.2.2
+      \endverb
+    \endentry
+    \entry{teo2025what}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c8279af34c2b3b6acd13611682d47f8e}{%
+           family={Teo},
+           familyi={T\bibinitperiod},
+           given={Yu\bibnamedelima Siang},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IxDF - Interaction Design Foundation}%
+      }
+      \strng{namehash}{c8279af34c2b3b6acd13611682d47f8e}
+      \strng{fullhash}{c8279af34c2b3b6acd13611682d47f8e}
+      \strng{fullhashraw}{c8279af34c2b3b6acd13611682d47f8e}
+      \strng{bibnamehash}{c8279af34c2b3b6acd13611682d47f8e}
+      \strng{authorbibnamehash}{c8279af34c2b3b6acd13611682d47f8e}
+      \strng{authornamehash}{c8279af34c2b3b6acd13611682d47f8e}
+      \strng{authorfullhash}{c8279af34c2b3b6acd13611682d47f8e}
+      \strng{authorfullhashraw}{c8279af34c2b3b6acd13611682d47f8e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{What is Interaction Design?}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/article/what-is-interaction-design
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/article/what-is-interaction-design
+      \endverb
+    \endentry
+    \entry{PwC2024}{report}{}{}
+      \list{institution}{1}{%
+        {PwC Indonesia}%
+      }
+      \list{location}{1}{%
+        {Jakarta, Indonesia}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{PwC Indonesia Automotive Insights Report}
+      \field{title}{The Road Ahead: Indonesia’s Electric Vehicle Readiness and Consumer Insights 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.pwc.com/id
+      \endverb
+      \verb{url}
+      \verb https://www.pwc.com/id
+      \endverb
+    \endentry
+    \entry{Zola2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=93d5345575084be9cfaf4424211cad72}{%
+           family={Zola},
+           familyi={Z\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef3960c5eb53ea0f68b5a54e4625dc3d}{%
+           family={Nugraheni},
+           familyi={N\bibinitperiod},
+           given={Siska\bibnamedelima Dwi},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f9a63f7f931538a532ed6ae06cd3772}{%
+           family={Rosiana},
+           familyi={R\bibinitperiod},
+           given={Andlhien\bibnamedelima Atta},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=510229b68d007e1b7b5cb0a6e85a6390}{%
+           family={Pambudy},
+           familyi={P\bibinitperiod},
+           given={Dzamar\bibnamedelima Ananto},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7f2ce396afa44db0773ae046b85ea89}{%
+           family={Agustanta},
+           familyi={A\bibinitperiod},
+           given={Nainta},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0a75b4d06b58bd4152e226f0493ac7b9}
+      \strng{fullhash}{f4935e7c8ac9fd36d4cfb4ff4dd9819a}
+      \strng{fullhashraw}{f4935e7c8ac9fd36d4cfb4ff4dd9819a}
+      \strng{bibnamehash}{f4935e7c8ac9fd36d4cfb4ff4dd9819a}
+      \strng{authorbibnamehash}{f4935e7c8ac9fd36d4cfb4ff4dd9819a}
+      \strng{authornamehash}{0a75b4d06b58bd4152e226f0493ac7b9}
+      \strng{authorfullhash}{f4935e7c8ac9fd36d4cfb4ff4dd9819a}
+      \strng{authorfullhashraw}{f4935e7c8ac9fd36d4cfb4ff4dd9819a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{e-Jurnal Ekonomi Sumberdaya dan Lingkungan}
+      \field{number}{3}
+      \field{title}{Inovasi kendaraan listrik sebagai upaya meningkatkan kelestarian lingkungan dan mendorong pertumbuhan ekonomi hijau di Indonesia}
+      \field{volume}{11}
+      \field{year}{2023}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
